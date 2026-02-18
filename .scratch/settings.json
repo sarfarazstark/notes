@@ -1,0 +1,18 @@
+{
+  "theme": {
+    "mode": "system",
+    "customLightColors": null,
+    "customDarkColors": null
+  },
+  "editorFont": {
+    "baseFontFamily": "monospace",
+    "baseFontSize": 15.0,
+    "boldWeight": 600,
+    "lineHeight": 1.6
+  },
+  "gitEnabled": null,
+  "pinnedNoteIds": null,
+  "textDirection": null,
+  "editorWidth": "full",
+  "defaultNoteName": "Untitled"
+}
