@@ -11,7 +11,7 @@
     "lineHeight": 1.6
   },
   "gitEnabled": null,
-  "pinnedNoteIds": null,
+  "pinnedNoteIds": [],
   "textDirection": null,
   "editorWidth": "full",
   "defaultNoteName": "Untitled"
