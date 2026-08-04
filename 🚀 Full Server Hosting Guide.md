@@ -1,4 +1,5 @@
 # 🚀 Full Server Hosting Guide
+
 ### Host AdonisJS · Laravel · Vite Apps from Git with SSL, Cron, Queue & Firewall
 
 ---
@@ -14,13 +15,13 @@
 3. [Firewall Configuration (UFW)](#3-firewall-configuration-ufw)
 4. [Clone Your App from Git](#4-clone-your-app-from-git)
 5. [App Setup by Framework](#5-app-setup-by-framework)
-   - [Laravel](#51-laravel)
-   - [AdonisJS](#52-adonisjs)
-   - [Vite (Static / SSR)](#53-vite-static--ssr)
+  - [Laravel](#51-laravel)
+  - [AdonisJS](#52-adonisjs)
+  - [Vite (Static / SSR)](#53-vite-static--ssr)
 6. [Web Server Configuration](#6-web-server-configuration)
-   - [Nginx](#61-nginx)
-   - [Apache](#62-apache)
-   - [Caddy](#63-caddy)
+  - [Nginx](#61-nginx)
+  - [Apache](#62-apache)
+  - [Caddy](#63-caddy)
 7. [SSL with Let's Encrypt](#7-ssl-with-lets-encrypt)
 8. [Process Management with PM2](#8-process-management-with-pm2)
 9. [Queue Workers](#9-queue-workers)
@@ -41,17 +42,19 @@ usermod -aG sudo deployer
 su - deployer
 ```
 
-> ⚠️ **WARNING:** Running your application as `root` is dangerous. A compromised app could give an attacker full control over your server. Always use a dedicated, unprivileged user.
+> ⚠️**WARNING:** Running your application as `root` is dangerous. A compromised app could give an attacker full control over your server. Always use a dedicated, unprivileged user.
 
 ### Set up SSH key authentication
 
 On your **local machine**:
+
 ```bash
 ssh-keygen -t ed25519 -C "your@email.com"
 ssh-copy-id deployer@YOUR_SERVER_IP
 ```
 
 Then disable password auth on the server:
+
 ```bash
 sudo nano /etc/ssh/sshd_config
 # Set:
@@ -105,12 +108,14 @@ composer --version
 ### Database (choose one)
 
 **MySQL:**
+
 ```bash
 sudo apt install -y mysql-server
 sudo mysql_secure_installation
 ```
 
 **PostgreSQL:**
+
 ```bash
 sudo apt install -y postgresql postgresql-contrib
 sudo -u postgres psql -c "CREATE USER appuser WITH PASSWORD 'strongpassword';"
@@ -118,6 +123,7 @@ sudo -u postgres psql -c "CREATE DATABASE appdb OWNER appuser;"
 ```
 
 **Redis (for queues/cache):**
+
 ```bash
 sudo apt install -y redis-server
 sudo systemctl enable redis-server
@@ -187,9 +193,11 @@ cat ~/.ssh/deploy_key.pub
 ```
 
 Configure SSH to use this key:
+
 ```bash
 nano ~/.ssh/config
 ```
+
 ```
 Host github.com
   IdentityFile ~/.ssh/deploy_key
@@ -197,6 +205,7 @@ Host github.com
 ```
 
 Then clone with SSH:
+
 ```bash
 git clone git@github.com:youruser/yourapp.git /var/www/myapp
 ```
@@ -276,6 +285,7 @@ The built output will be in `build/`. When running in production, point your pro
 ### 5.3 Vite (Static / SSR)
 
 **Static build (pure frontend):**
+
 ```bash
 cd /var/www/myapp
 npm ci
@@ -284,6 +294,7 @@ npm run build
 ```
 
 **SSR / Node server (e.g., Vite + Express, SvelteKit, Nuxt):**
+
 ```bash
 npm ci
 npm run build
@@ -297,6 +308,7 @@ npm run build
 ### 6.1 Nginx
 
 **Install:**
+
 ```bash
 sudo apt install -y nginx
 sudo systemctl enable nginx
@@ -362,6 +374,7 @@ server {
 ```
 
 **Enable the site:**
+
 ```bash
 sudo ln -s /etc/nginx/sites-available/myapp /etc/nginx/sites-enabled/
 sudo nginx -t    # Test config before reloading!
@@ -375,6 +388,7 @@ sudo systemctl reload nginx
 ### 6.2 Apache
 
 **Install:**
+
 ```bash
 sudo apt install -y apache2
 sudo a2enmod rewrite proxy proxy_http headers
@@ -423,6 +437,7 @@ sudo nano /etc/apache2/sites-available/myapp.conf
 ```
 
 **Enable the site:**
+
 ```bash
 sudo a2ensite myapp.conf
 sudo apachectl configtest   # Always test first!
@@ -438,6 +453,7 @@ sudo systemctl reload apache2
 Caddy is the simplest option — it handles SSL automatically with zero configuration.
 
 **Install:**
+
 ```bash
 sudo apt install -y debian-keyring debian-archive-keyring apt-transport-https
 curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/gpg.key' | sudo gpg --dearmor -o /usr/share/keyrings/caddy-stable-archive-keyring.gpg
@@ -448,6 +464,7 @@ sudo apt update && sudo apt install caddy
 **Configure `/etc/caddy/Caddyfile`:**
 
 #### Laravel (PHP-FPM):
+
 ```caddyfile
 yourdomain.com {
     root * /var/www/myapp/public
@@ -463,6 +480,7 @@ yourdomain.com {
 ```
 
 #### AdonisJS / Vite SSR (Node Proxy):
+
 ```caddyfile
 yourdomain.com {
     reverse_proxy 127.0.0.1:3333
@@ -471,6 +489,7 @@ yourdomain.com {
 ```
 
 #### Vite Static:
+
 ```caddyfile
 yourdomain.com {
     root * /var/www/myapp/dist
@@ -481,6 +500,7 @@ yourdomain.com {
 ```
 
 **Start Caddy:**
+
 ```bash
 sudo systemctl enable --now caddy
 sudo caddy reload --config /etc/caddy/Caddyfile
@@ -502,6 +522,7 @@ sudo certbot --nginx -d yourdomain.com -d www.yourdomain.com
 ```
 
 Certbot will automatically edit your Nginx config to add SSL. Test renewal:
+
 ```bash
 sudo certbot renew --dry-run
 ```
@@ -537,12 +558,14 @@ npm install -g pm2
 ### Start your app
 
 **AdonisJS:**
+
 ```bash
 cd /var/www/myapp
 pm2 start build/bin/server.js --name "myapp" --env production
 ```
 
 **Vite SSR / Custom Node server:**
+
 ```bash
 pm2 start build/index.js --name "myapp"
 ```
@@ -632,12 +655,14 @@ sudo systemctl status laravel-queue
 ```
 
 **Laravel Horizon (advanced queue dashboard):**
+
 ```bash
 composer require laravel/horizon
 php artisan horizon:install
 ```
 
 Add to your systemd service:
+
 ```ini
 ExecStart=/usr/bin/php artisan horizon
 ```
@@ -664,11 +689,13 @@ crontab -e -u deployer
 ```
 
 Add:
+
 ```cron
 * * * * * cd /var/www/myapp && php artisan schedule:run >> /dev/null 2>&1
 ```
 
 **Verify the scheduler is running:**
+
 ```bash
 php artisan schedule:list
 php artisan schedule:work   # Useful for local testing
@@ -683,6 +710,7 @@ crontab -e -u deployer
 ```
 
 Examples:
+
 ```cron
 # Run a custom Node script every hour
 0 * * * * node /var/www/myapp/scripts/cleanup.js >> /var/log/myapp/cron.log 2>&1
@@ -695,6 +723,7 @@ Examples:
 ```
 
 **View current cron jobs:**
+
 ```bash
 crontab -l -u deployer
 ```
@@ -787,11 +816,13 @@ echo "✅ Build complete. Files available at $APP_DIR/dist"
 ```
 
 **Make the script executable:**
+
 ```bash
 chmod +x /var/www/myapp/deploy.sh
 ```
 
 **Run a deployment:**
+
 ```bash
 /var/www/myapp/deploy.sh
 ```
@@ -915,25 +946,29 @@ sudo nano /etc/logrotate.d/myapp
 
 ### Quick Reference: Service Commands
 
-| Action | Nginx | Apache | Caddy | PHP-FPM |
-|---|---|---|---|---|
-| Start | `systemctl start nginx` | `systemctl start apache2` | `systemctl start caddy` | `systemctl start php8.3-fpm` |
-| Reload (no downtime) | `systemctl reload nginx` | `systemctl reload apache2` | `caddy reload` | `systemctl reload php8.3-fpm` |
-| Test config | `nginx -t` | `apachectl configtest` | `caddy validate` | — |
-| View logs | `tail -f /var/log/nginx/error.log` | `tail -f /var/log/apache2/error.log` | `journalctl -u caddy -f` | `tail -f /var/log/php8.3-fpm.log` |
+
+| Action               | Nginx                              | Apache                               | Caddy                    | PHP-FPM                           |
+| -------------------- | ---------------------------------- | ------------------------------------ | ------------------------ | --------------------------------- |
+| Start                | `systemctl start nginx`            | `systemctl start apache2`            | `systemctl start caddy`  | `systemctl start php8.3-fpm`      |
+| Reload (no downtime) | `systemctl reload nginx`           | `systemctl reload apache2`           | `caddy reload`           | `systemctl reload php8.3-fpm`     |
+| Test config          | `nginx -t`                         | `apachectl configtest`               | `caddy validate`         | —                                 |
+| View logs            | `tail -f /var/log/nginx/error.log` | `tail -f /var/log/apache2/error.log` | `journalctl -u caddy -f` | `tail -f /var/log/php8.3-fpm.log` |
+
 
 ---
 
 ## Summary
 
-| Component | Laravel | AdonisJS | Vite Static |
-|---|---|---|---|
-| **Web Server** | Nginx/Apache/Caddy + PHP-FPM | Nginx/Apache/Caddy (reverse proxy) | Nginx/Apache/Caddy (file server) |
-| **Process Mgr** | PHP-FPM (managed by systemd) | PM2 | N/A |
-| **SSL** | Certbot (Nginx/Apache) or Caddy auto | Certbot or Caddy auto | Certbot or Caddy auto |
-| **Queue** | `php artisan queue:work` via systemd | PM2 worker process | N/A |
-| **Cron** | One crontab entry → `schedule:run` | OS crontab or `node-cron` | N/A |
-| **Deploy** | `git pull` + composer + migrate | `git pull` + npm build + pm2 reload | `git pull` + npm build |
+
+| Component       | Laravel                              | AdonisJS                            | Vite Static                      |
+| --------------- | ------------------------------------ | ----------------------------------- | -------------------------------- |
+| **Web Server**  | Nginx/Apache/Caddy + PHP-FPM         | Nginx/Apache/Caddy (reverse proxy)  | Nginx/Apache/Caddy (file server) |
+| **Process Mgr** | PHP-FPM (managed by systemd)         | PM2                                 | N/A                              |
+| **SSL**         | Certbot (Nginx/Apache) or Caddy auto | Certbot or Caddy auto               | Certbot or Caddy auto            |
+| **Queue**       | `php artisan queue:work` via systemd | PM2 worker process                  | N/A                              |
+| **Cron**        | One crontab entry → `schedule:run`   | OS crontab or `node-cron`           | N/A                              |
+| **Deploy**      | `git pull` + composer + migrate      | `git pull` + npm build + pm2 reload | `git pull` + npm build           |
+
 
 ---
 
