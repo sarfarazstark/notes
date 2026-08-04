@@ -6,80 +6,83 @@
 
 ## Contents
 
-### Starting from Scratch — 6
+### [Starting from Scratch](#starting-from-scratch)
 
-- Start with a feature, not a layout — 7
-- Detail comes later — 10
-- Don't design too much — 13
-- Choose a personality — 17
-- Limit your choices — 24
+- [Start with a feature, not a layout](#start-with-a-feature-not-a-layout)
+- [Detail comes later](#detail-comes-later)
+- [Don't design too much](#dont-design-too-much)
+- [Choose a personality](#choose-a-personality)
+- [Limit your choices](#limit-your-choices)
 
-### Hierarchy is Everything — 29
+### [Hierarchy is Everything](#hierarchy-is-everything)
 
-- Not all elements are equal — 30
-- Size isn't everything — 32
-- Don't use grey text on colored backgrounds — 36
-- Emphasize by de-emphasizing — 39
-- Labels are a last resort — 41
-- Separate visual hierarchy from document hierarchy — 46
-- Balance weight and contrast — 48
-- Semantics are secondary — 52
+- [Not all elements are equal](#not-all-elements-are-equal)
+- [Size isn't everything](#size-isnt-everything)
+- [Don't use grey text on colored backgrounds](#dont-use-grey-text-on-colored-backgrounds)
+- [Emphasize by de-emphasizing](#emphasize-by-de-emphasizing)
+- [Labels are a last resort](#labels-are-a-last-resort)
+- [Separate visual hierarchy from document hierarchy](#separate-visual-hierarchy-from-document-hierarchy)
+- [Balance weight and contrast](#balance-weight-and-contrast)
+- [Semantics are secondary](#semantics-are-secondary)
 
-### Layout and Spacing — 55
+### [Layout and Spacing](#layout-and-spacing)
 
-- Start with too much white space — 56
-- Establish a spacing and sizing system — 60
-- You don't have to fill the whole screen — 65
-- Grids are overrated — 72
-- Relative sizing doesn't scale — 79
-- Avoid ambiguous spacing — 83
+- [Start with too much white space](#start-with-too-much-white-space)
+- [Establish a spacing and sizing system](#establish-a-spacing-and-sizing-system)
+- [You don't have to fill the whole screen](#you-dont-have-to-fill-the-whole-screen)
+- [Grids are overrated](#grids-are-overrated)
+- [Relative sizing doesn't scale](#relative-sizing-doesnt-scale)
+- [Avoid ambiguous spacing](#avoid-ambiguous-spacing)
 
-### Designing Text — 87
+### [Designing Text](#designing-text)
 
-- Establish a type scale — 88
-- Use good fonts — 94
-- Keep your line length in check — 99
-- Baseline, not center — 102
-- Line-height is proportional — 105
-- Not every link needs a color — 109
-- Align with readability in mind — 111
-- Use letter-spacing effectively — 115
+- [Establish a type scale](#establish-a-type-scale)
+- [Use good fonts](#use-good-fonts)
+- [Keep your line length in check](#keep-your-line-length-in-check)
+- [Baseline, not center](#baseline-not-center)
+- [Line-height is proportional](#line-height-is-proportional)
+- [Not every link needs a color](#not-every-link-needs-a-color)
+- [Align with readability in mind](#align-with-readability-in-mind)
+- [Use letter-spacing effectively](#use-letter-spacing-effectively)
 
-### Working with Color — 118
+### [Working with Color](#working-with-color)
 
-- Ditch hex for HSL — 119
-- You need more colors than you think — 123
-- Define your shades up front — 129
-- Don't let lightness kill your saturation — 133
-- Greys don't have to be grey — 139
-- Accessible doesn't have to mean ugly — 142
-- Don't rely on color alone — 146
+- [Ditch hex for HSL](#ditch-hex-for-hsl)
+- [You need more colors than you think](#you-need-more-colors-than-you-think)
+- [Define your shades up front](#define-your-shades-up-front)
+- [Don't let lightness kill your saturation](#dont-let-lightness-kill-your-saturation)
+- [Greys don't have to be grey](#greys-dont-have-to-be-grey)
+- [Accessible doesn't have to mean ugly](#accessible-doesnt-have-to-mean-ugly)
+- [Don't rely on color alone](#dont-rely-on-color-alone)
 
-### Creating Depth — 149
+### [Creating Depth](#creating-depth)
 
-- Emulate a light source — 150
-- Use shadows to convey elevation — 158
-- Shadows can have two parts — 163
-- Even flat designs can have depth — 167
-- Overlap elements to create layers — 170
+- [Emulate a light source](#emulate-a-light-source)
+- [Use shadows to convey elevation](#use-shadows-to-convey-elevation)
+- [Shadows can have two parts](#shadows-can-have-two-parts)
+- [Even flat designs can have depth](#even-flat-designs-can-have-depth)
+- [Overlap elements to create layers](#overlap-elements-to-create-layers)
 
-### Working with Images — 173
+### [Working with Images](#working-with-images)
 
-- Use good photos — 174
-- Text needs consistent contrast — 176
-- Everything has an intended size — 181
-- Beware user-uploaded content — 187
+- [Use good photos](#use-good-photos)
+- [Text needs consistent contrast](#text-needs-consistent-contrast)
+- [Everything has an intended size](#everything-has-an-intended-size)
+- [Beware user-uploaded content](#beware-user-uploaded-content)
 
-### Finishing Touches — 191
+### [Finishing Touches](#finishing-touches)
 
-- Supercharge the defaults — 192
-- Add color with accent borders — 195
-- Decorate your backgrounds — 198
-- Don't overlook empty states — 203
-- Use fewer borders — 206
-- Think outside the box — 210
+- [Supercharge the defaults](#supercharge-the-defaults)
+- [Add color with accent borders](#add-color-with-accent-borders)
+- [Decorate your backgrounds](#decorate-your-backgrounds)
+- [Don't overlook empty states](#dont-overlook-empty-states)
+- [Use fewer borders](#use-fewer-borders)
+- [Think outside the box](#think-outside-the-box)
 
-### Leveling Up — 215
+### [Leveling Up](#leveling-up)
+
+- [Look for decisions you wouldn't have made](#look-for-decisions-you-wouldnt-have-made)
+- [Rebuild your favorite interfaces](#rebuild-your-favorite-interfaces)
 
 ---
 
@@ -96,7 +99,7 @@ The easiest way to find yourself frustrated and stuck when working on a new desi
 - Should the page content be in a container, or should it be full-width?
 - Where should the logo go?
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg465-1.jpg)
+![](assets/img465-1.jpg)
 
 The thing is, an "app" is actually a collection of features. Before you've designed a few features, you don't even have the information you need to make a decision about how the navigation should work. No wonder it's frustrating!
 
@@ -114,11 +117,11 @@ Your interface will need:
 
 Start with that.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg468-1.jpg)
+![](assets/img468-1.jpg)
 
 Hell, you might not even need that other stuff anyways — it worked for Google.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg471-1.jpg)
+![](assets/img471-1.jpg)
 
 ---
 
@@ -132,7 +135,7 @@ If you have trouble ignoring the details when working in a high fidelity environ
 
 Obsessing over little details just isn't possible with a Sharpie, so it can be a great way to quickly explore a bunch of different layout ideas.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg474-1.jpg)
+![](assets/img474-1.jpg)
 
 ### Hold the color
 
@@ -140,11 +143,11 @@ Even when you're ready to refine an idea in higher fidelity, resist the temptati
 
 By designing in grayscale, you're forced to use spacing, contrast, and size to do all of the heavy lifting.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg477.jpg)
+![](assets/img477.jpg)
 
 It's a little more challenging, but you'll end up with a clearer interface with a strong hierarchy that's easy to enhance with color later.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg478.jpg)
+![](assets/img478.jpg)
 
 ### Don't over-invest
 
@@ -160,7 +163,7 @@ Sketches and wireframes are disposable — users can't do anything with static m
 
 You don't need to design every single feature in an app before you move on to implementation; in fact, it's better if you don't.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg483.jpg)
+![](assets/img483.jpg)
 
 Figuring out how every feature in a product should interact and how every edge case should look is really hard, especially in the abstract.
 
@@ -175,7 +178,7 @@ You're setting yourself up for frustration by trying to figure this stuff out us
 Instead of designing everything up front, work in short cycles. Start by designing a simple version of the next feature you want to build.  
 
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg486.jpg)
+![](assets/img486.jpg)
 
 Once you're happy with the basic design, make it real.
 
@@ -184,7 +187,7 @@ You'll probably run into some unexpected complexity along the way, but that's th
 Iterate on the working design until there are no more problems left to solve, then jump back into design mode and start working on the next feature.  
 
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg489.jpg)
+![](assets/img489.jpg)
 
 Don't get overwhelmed working in the abstract. Build the real thing as early as possible so your imagination doesn't have to do all the heavy lifting.
 
@@ -194,7 +197,7 @@ Don't imply functionality in your designs that you aren't ready to build.
 
 For example, say you're working on a comment system for a project management tool. You know that one day, you'd like users to be able to attach files to their comments, so you include an attachments section in your design.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg490.jpg)
+![](assets/img490.jpg)
 
 You get deep into implementation only to discover that supporting attachments is going to be a lot more work than you anticipated. There's no way you have time to finish it right now, so the whole commenting system sits on the backburner while you take care of other priorities.
 
@@ -205,7 +208,7 @@ When you're designing a new feature, **expect it to be hard to build**.
 Designing the smallest useful version you can ship reduces that risk considerably.  
 
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg493.jpg)
+![](assets/img493.jpg)
 
 If part of a feature is a "nice-to-have", **design it later**. Build the simple version first and you'll always have something to fall back on.
 
@@ -215,7 +218,7 @@ If part of a feature is a "nice-to-have", **design it later**. Build the simple 
 
 Every design has some sort of personality. A banking site might try to communicate secure and professional, while a trendy new startup might have a design that feels fun and playful.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg496.jpg)
+![](assets/img496.jpg)
 
 On the surface, giving a design a particular personality might sound abstract and handwavy, but a lot of it is determined by a few solid, concrete factors.
 
@@ -225,15 +228,15 @@ Typography plays a huge part in determining how a design feels.
 
 If you want an elegant or classic look, you might want to incorporate a serif typeface in your design:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg499.jpg)
+![](assets/img499.jpg)
 
 For a playful look, you could use a rounded sans serif:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg500.jpg)
+![](assets/img500.jpg)
 
 If you're going for a plainer look, or want to rely on other elements to provide the personality, a neutral sans serif works great:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg503.jpg)
+![](assets/img503.jpg)
 
 ### Color
 
@@ -241,15 +244,15 @@ There's a lot of science out there on the psychology of color, but in practice, 
 
 Blue is safe and familiar — nobody ever complains about blue:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg504.jpg)
+![](assets/img504.jpg)
 
 Gold might say "expensive" and "sophisticated":
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg507.jpg)
+![](assets/img507.jpg)
 
 Pink is a bit more fun, and not so serious:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg508.jpg)
+![](assets/img508.jpg)
 
 While trying to choose colors using only psychology isn't super practical — a lot of it is just about what looks good to you — it can be helpful to think about when you're trying to understand why you think a color is the right fit.
 
@@ -259,15 +262,15 @@ As small of a detail as it sounds, if and how much you round the corners in your
 
 A small border radius is pretty neutral, and doesn't really communicate much of a personality on its own:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg511.jpg)
+![](assets/img511.jpg)
 
 A large border radius starts to feel more playful:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg512.jpg)
+![](assets/img512.jpg)
 
 ...while no border radius at all feels a lot more serious or formal:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg515.jpg)
+![](assets/img515.jpg)
 
 Whatever you choose, it's important to stay consistent. Mixing square corners with rounded corners in the same interface almost always looks worse than sticking with one or the other.
 
@@ -277,11 +280,11 @@ While not a visual design technique per se, the words you use in an interface ha
 
 Using a less personal tone might feel more official or professional:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg516.jpg)
+![](assets/img516.jpg)
 
 ...while using friendlier, more casual language makes a site feel, well, friendlier:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg519.jpg)
+![](assets/img519.jpg)
 
 Words are everywhere in a user interface, and choosing the right ones is just as (if not more) important than choosing the right color or typeface.
 
@@ -311,7 +314,7 @@ When you're designing without constraints, decision-making is torture because th
 
 For example, these buttons all have different background colors, but it's almost impossible to tell the difference between them by just looking at them.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg522.jpg)
+![](assets/img522.jpg)
 
 How are you supposed to make a confident decision if none of these would really be bad choices?
 
@@ -321,11 +324,11 @@ Instead of hand-picking values from a limitless pool any time you need to make a
 
 Don't reach for the color picker every time you need to pick a new shade of blue — choose from a set of 8-10 shades picked out ahead of time.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg525.jpg)
+![](assets/img525.jpg)
 
 Similarly, don't tweak a font size one pixel at a time until it looks perfect. Define a restrictive type scale in advance and use that to make any future font size decisions.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg526.jpg)
+![](assets/img526.jpg)
 
 When you build systems like this, you only have to do the hard work of picking the initial values once instead of every time you're designing a new piece of UI. It's a bit more work up front, but it's worth it — it'll save you a ton of decision fatigue down the road.
 
@@ -335,17 +338,17 @@ When you're designing using a constrained set of values, decision-making is a lo
 
 For example, say you're trying to choose a size for an icon. You've defined a sizing scale in advance where your only small-to-medium sized options are 12px, 16px, 24px, and 32px.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg529.jpg)
+![](assets/img529.jpg)
 
 To pick the best option, start by taking a guess at which one will look best, maybe 16px. Then try the values on either side (12px and 24px) for comparison.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg530.jpg)
+![](assets/img530.jpg)
 
 Chances are, two of those options will seem like obviously bad choices. If it's the options on the outside, you're done — the middle option is the only good choice.
 
 If one of the outer options looks best, do another comparison using that option as the "middle" value and make sure there's not a better choice.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg533.jpg)
+![](assets/img533.jpg)
 
 This approach works for anything where you've defined a system. When you're limited to a set of options that all look noticeably different, picking the best one is a piece of cake.
 
@@ -388,11 +391,11 @@ Visual hierarchy refers to how important the elements in an interface appear in 
 
 When everything in an interface is competing for attention, it feels noisy and chaotic, like one big wall of content where it's not clear what actually matters:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg540.jpg)
+![](assets/img540.jpg)
 
 When you deliberately de-emphasize secondary and tertiary information, and make an effort to highlight the elements that are most important, the result is immediately more pleasing, even though the color scheme, font choice, and layout haven't changed:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg543.jpg)
+![](assets/img543.jpg)
 
 So how do you actually make this happen? In the following chapters, we'll cover a number of specific strategies you can use to introduce hierarchy into your designs.
 
@@ -402,17 +405,17 @@ So how do you actually make this happen? In the following chapters, we'll cover 
 
 Relying too much on font size to control your hierarchy is a mistake — it often leads to primary content that's too large, and secondary content that's too small.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg546.jpg)
+![](assets/img546.jpg)
 
 Instead of leaving all of the heavy lifting to font size alone, try using font weight or color to do the same job.
 
 For example, making a primary element bolder lets you use a more reasonable font size, and often does a better job at communicating its importance anyways:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg549.jpg)
+![](assets/img549.jpg)
 
 Similarly, using a softer color for supporting text instead of a tiny font size makes it clear that the text is secondary while sacrificing less on readability:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg550.jpg)
+![](assets/img550.jpg)
 
 Try and stick to two or three colors:
 
@@ -425,7 +428,7 @@ Similarly, two font weights are usually enough for UI work:
 - A normal font weight (400 or 500 depending on the font) for most text
 - A heavier font weight (600 or 700) for text you want to emphasize
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg553.jpg)
+![](assets/img553.jpg)
 
 Stay away from font weights under 400 for UI work — they can work for large headings but are too hard to read at smaller sizes. If you're considering using a lighter weight to de-emphasize some text, use a lighter color or smaller font size instead.
 
@@ -435,29 +438,29 @@ Stay away from font weights under 400 for UI work — they can work for large he
 
 Making text a lighter grey is a great way to de-emphasize it on white backgrounds, but it doesn't look so great on colored backgrounds.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg558.jpg)
+![](assets/img558.jpg)
 
 That's because the effect we're actually seeing with grey on white is reduced contrast.
 
 Making the text closer to the background color is what actually helps create hierarchy, not making it light grey.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg561.jpg)
+![](assets/img561.jpg)
 
 You might think that the easiest way to achieve this is to use white text and reduce the opacity:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg562.jpg)
+![](assets/img562.jpg)
 
 While this does reduce the contrast, it often results in text that looks dull, washed out, and sometimes even disabled.
 
 Even worse, using this approach on top of an image or pattern means the background will show through the text:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg565.jpg)
+![](assets/img565.jpg)
 
 A better approach is to hand-pick a new color, based on the background color.
 
 Choose a color with the same hue, and adjust the saturation and lightness until it looks right to you:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg566.jpg)
+![](assets/img566.jpg)
 
 Hand-picking a color this way makes it easy to reduce the contrast without the text looking faded.
 
@@ -469,17 +472,17 @@ Sometimes you'll run into a situation where the main element of an interface isn
 
 For example, despite trying to make this active nav item "pop" by giving it a different color, it still doesn't really stand out compared to the inactive items:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg569.jpg)
+![](assets/img569.jpg)
 
 When you run into situations like this, instead of trying to further emphasize the element you want to draw attention to, figure out how you can de-emphasize the elements that are competing with it.
 
 In this example, you could do that by giving the inactive items a softer color so they sit more in the background:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg570.jpg)
+![](assets/img570.jpg)
 
 You can apply this thinking to bigger pieces of an interface as well. For example, if a sidebar feels like it's competing with your main content area, don't give it a background color — let the content sit directly on the page background instead:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg573.jpg)
+![](assets/img573.jpg)
 
 ---
 
@@ -489,7 +492,7 @@ Put down the accessibility pitchfork — this isn't about forms.
 
 When presenting data to the user (especially data from the database), it's easy to fall into the trap of displaying it using a naive label: value format.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg576.jpg)
+![](assets/img576.jpg)
 
 The problem with this approach is that it makes it difficult to present the data with any sort of hierarchy; every piece of data is given equal emphasis.
 
@@ -501,7 +504,7 @@ For example, `janedoe@example.com` is an email address, `(555) 765-4321` is a ph
 
 When the format isn't enough, the context often is. When you see the phrase "Customer Support" listed below someone's name in an employee directory, you don't need a label to make the connection that that is the department the person works in.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg579.jpg)
+![](assets/img579.jpg)
 
 When you're able to present data without labels, it's much easier to emphasize important or identifying information, making the interface easier to use while at the same time making it feel more "designed".
 
@@ -511,11 +514,11 @@ Even when a piece of data isn't completely clear without a label, you can often 
 
 For example, if you need to display inventory in an e-commerce interface, instead of "In stock: 12", try something like "12 left in stock".
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg580.jpg)
+![](assets/img580.jpg)
 
 If you're building a real estate app, something like "Bedrooms: 3" could simply become "3 bedrooms".
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg583.jpg)
+![](assets/img583.jpg)
 
 When you're able to combine labels and values into a single unit, it's much easier to give each piece of data meaningful styling without sacrificing on clarity.
 
@@ -525,7 +528,7 @@ Sometimes you really do need a label; for example when you're displaying multipl
 
 In these situations, add the label, but treat it as supporting content. The data itself is what matters, the label is just there for clarity.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg586.jpg)
+![](assets/img586.jpg)
 
 De-emphasize the label by making it smaller, reducing the contrast, using a lighter font weight, or some combination of all three.
 
@@ -537,7 +540,7 @@ This is often the case on information-dense pages, like the technical specificat
 
 If a user is trying to find out the dimensions of a smartphone, they're probably scanning the page for words like "depth", not "7.6mm".
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg587.jpg)
+![](assets/img587.jpg)
 
 Don't de-emphasize the data too much in these scenarios; it's still important information. Simply using a darker color for the label and a slightly lighter color for the value is often enough.
 
@@ -551,13 +554,13 @@ By default, web browsers assign progressively smaller font sizes to heading elem
 
 Using an h1 tag to add a title like Manage Account to a page makes perfect sense semantically, but because we're trained to believe that h1 elements should be big, it's easy to fall into the trap of making those titles bigger than they really need to be.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg593.jpg)
+![](assets/img593.jpg)
 
 A lot of the time, section titles act more like labels than headings — they are supportive content, they shouldn't be stealing all the attention.
 
 Usually the content in that section should be the focus, not the title. That means that a lot of the time, titles should actually be pretty small:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg596.jpg)
+![](assets/img596.jpg)
 
 Taken to the extreme, you might even include section titles in your markup for accessibility reasons but completely hide them visually because the content speaks for itself.
 
@@ -569,7 +572,7 @@ Don't let the element you're using influence how you choose to style it — pick
 
 The reason bold text feels emphasized compared to regular text is that bold text covers more surface area — in the same amount of space, more pixels are used for text than for the background.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg599.jpg)
+![](assets/img599.jpg)
 
 So why is this interesting? Well it turns out that the relationship between surface area and hierarchy has implications on other elements in a UI as well.
 
@@ -579,13 +582,13 @@ One of the places understanding this relationship becomes important is when work
 
 Just like bold text, icons (especially solid ones) are generally pretty "heavy" and cover a lot of surface area. As a result, when you put an icon next to some text, the icon tends to feel emphasized.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg602.jpg)
+![](assets/img602.jpg)
 
 Unlike text, there's no way to change the "weight" of an icon, so to create balance it needs to be de-emphasized in some other way.
 
 A simple and effective way to do this is to lower the contrast of the icon by giving it a softer color.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg603-1.jpg)
+![](assets/img603-1.jpg)
 
 This works anywhere you need to balance elements that have different weights. Reducing the contrast works like a counterbalance, making heavier elements feel lighter even though the weight hasn't changed.
 
@@ -595,11 +598,11 @@ Just like how reducing contrast helps to de-emphasize heavy elements, increasing
 
 This is useful when things like thin 1px borders are too subtle using a soft color, but darkening the color makes the design feel harsh and noisy.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg606.jpg)
+![](assets/img606.jpg)
 
 Making the border a bit heavier by increasing the width helps to emphasize it without losing the softer look:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg609.jpg)
+![](assets/img609.jpg)
 
 ---
 
@@ -607,7 +610,7 @@ Making the border a bit heavier by increasing the width helps to emphasize it wi
 
 When there are multiple actions a user can take on a page, it's easy to fall into the trap of designing those actions based purely on semantics.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg612.jpg)
+![](assets/img612.jpg)
 
 Semantics are an important part of button design, but that doesn't mean you can forget about hierarchy.
 
@@ -619,11 +622,11 @@ When designing these actions, it's important to communicate their place in the h
 - **Secondary actions** should be clear but not prominent. Outline styles or lower contrast background colors are great options.
 - **Tertiary actions** should be discoverable but unobtrusive. Styling these actions like links is usually the best approach.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg615.jpg)
+![](assets/img615.jpg)
 
 When you take a hierarchy-first approach to designing the actions on page, the result is a much less busy UI that communicates more clearly:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg616.jpg)
+![](assets/img616.jpg)
 
 ### Destructive actions
 
@@ -631,11 +634,11 @@ Being destructive or high severity doesn't automatically mean a button should be
 
 If a destructive action isn't the primary action on the page, it might be better to give it a secondary or tertiary button treatment.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg619.jpg)
+![](assets/img619.jpg)
 
 Combine this with a confirmation step where the destructive action actually is the primary action, and apply the big, red, bold styling there.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg620.jpg)
+![](assets/img620.jpg)
 
 ---
 
@@ -645,7 +648,7 @@ Combine this with a confirmation step where the destructive action actually is t
 
 One of the easiest ways to clean up a design is to simply give every element a little more room to breathe.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg625.jpg)
+![](assets/img625.jpg)
 
 Sounds simple enough, right? So how come we don't usually do it?
 
@@ -653,13 +656,13 @@ Sounds simple enough, right? So how come we don't usually do it?
 
 When designing for the web, white space is almost always added to a design — if something looks little too cramped, you add a bit of margin or padding until things look better.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg628.jpg)
+![](assets/img628.jpg)
 
 The problem with this approach is that elements are only given the minimum amount of breathing room necessary to not look actively bad. To make something actually look great, you usually need more white space.
 
 A better approach is to start by giving something way too much space, then remove it until you're happy with the result.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg631.jpg)
+![](assets/img631.jpg)
 
 You might think you'd end up with too much white space this way, but in practice, what might seem like "a little too much" when focused on an individual element ends up being closer to "just enough" in the context of a complete UI.
 
@@ -669,7 +672,7 @@ While interfaces with a lot of breathing room almost always feel cleaner and sim
 
 For example, if you're designing some sort of dashboard where a lot of information needs to be visible at once, packing that information together so it all fits on one screen might be worth making the design feel more busy.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg634.jpg)
+![](assets/img634.jpg)
 
 The important thing is to make this a deliberate decision instead of just being the default. It's a lot more obvious when you need to remove white space than it is when you need to add it.
 
@@ -681,7 +684,7 @@ You shouldn't be nitpicking between 120px and 125px when trying to decide on the
 
 Painfully trialing arbitrary values one pixel at a time will drastically slow you down at best, and create ugly, inconsistent designs at worst.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg637.jpg)
+![](assets/img637.jpg)
 
 Instead, limit yourself to a constrained set of values, defined in advance.
 
@@ -693,11 +696,11 @@ For a system to be truly useful, it needs to take into consideration the relativ
 
 At the small end of the scale (like the size of an icon, or the padding inside a button), a couple of pixels can make a big difference. Jumping from 12px to 16px is an increase of 33%!
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg640.jpg)
+![](assets/img640.jpg)
 
 But at the large end (the width of a card, or the vertical spacing in a landing page hero), a couple of pixels is basically imperceivable. Even increasing the width of a card from 500px to 520px is only a difference of 4%, which is eight times less significant than the jump from 12px to 16px.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg643.jpg)
+![](assets/img643.jpg)
 
 If you want your system to make sizing decisions easy, make sure no two values in your scale are ever closer than about 25%.
 
@@ -713,7 +716,7 @@ The values at the small end of the scale should start pretty packed together, an
 
 Here's an example of a fairly practical scale built using this approach:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg646.jpg)
+![](assets/img646.jpg)
 
 ### Using the system
 
@@ -723,7 +726,7 @@ Need to add some space under an element? Grab a value from your scale and try it
 
 While the workflow improvements are probably the biggest benefit, you'll also start to notice a subtle consistency in your designs that wasn't there before, and things will look just a little bit cleaner.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg649.jpg)
+![](assets/img649.jpg)
 
 A spacing and sizing system will help you create better designs, with less effort, in less time. Design advice doesn't get much more valuable than that.
 
@@ -735,15 +738,15 @@ Remember when 960px was the de facto layout width for desktop-size designs? Thes
 
 So it's no surprise that when most of us open our design tool of choice on our high resolution displays, we give ourselves at least 1200-1400px of space to fill. But just because you have the space, doesn't mean you need to use it.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg652.jpg)
+![](assets/img652.jpg)
 
 If you only need 600px, use 600px. Spreading things out or making things unnecessarily wide just makes an interface harder to interpret, while a little extra space around the edges never hurt anyone.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg655.jpg)
+![](assets/img655.jpg)
 
 This is just as applicable to individual sections of an interface, too. You don't need to make everything full-width just because something else (like your navigation) is full-width.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg656.jpg)
+![](assets/img656.jpg)
 
 Give each element just the space it needs — don't make something worse just to make it match something else.
 
@@ -753,11 +756,11 @@ If you're having a hard time designing a small interface on a large canvas, shri
 
 If you're building a responsive web application, try starting with a ~400px canvas and designing the mobile layout first.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg659.jpg)
+![](assets/img659.jpg)
 
 Once you have a mobile design you're happy with, bring it over to a larger size screen and adjust anything that felt like a compromise on smaller screens. Odds are you won't have to change as much as you think.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg662.jpg)
+![](assets/img662.jpg)
 
 ### Thinking in columns
 
@@ -765,11 +768,11 @@ If you're designing something that works best at a narrower width but feels unba
 
 For example, take this narrow form layout:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg665.jpg)
+![](assets/img665.jpg)
 
 If you wanted to make better use of the available space without making the form harder to use, you could break the supporting text out into a separate column:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg668.jpg)
+![](assets/img668.jpg)
 
 This makes the design feel more balanced and consistent without compromising on the optimal width for the form itself.
 
@@ -785,7 +788,7 @@ If you need a lot of space, go for it! Just don't feel obligated to fill it if y
 
 Using a system like a 12-column grid is a great way to simplify layout decisions, and can bring a satisfying sense of order to your designs.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg673.jpg)
+![](assets/img673.jpg)
 
 But even though grids can be useful, outsourcing all of your layout decisions to a grid can do more harm than good.
 
@@ -795,51 +798,51 @@ Fundamentally, a grid system is just about giving elements fluid, percentage-bas
 
 For example, in a 12-column grid each column is 8.33% wide. As long as an element's width is some multiple of 8.33% (including any gutters), that element is "on the grid".
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg676.jpg)
+![](assets/img676.jpg)
 
 The problem with treating grid systems like a religion is that there are a lot of situations where it makes much more sense for an element to have a fixed width instead of a relative width.
 
 For example, consider a traditional sidebar layout. Using a 12-column grid system, you might give the sidebar a width of three columns (25%) and the main content area a width of nine columns (75%).
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg677.jpg)
+![](assets/img677.jpg)
 
 This might seem fine at first, but think about what happens when you resize the screen.
 
 If you make the screen wider the sidebar gets wider too, taking up space that could've been put to better use by the main content area.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg680.jpg)
+![](assets/img680.jpg)
 
 Similarly, if you make the screen narrower, the sidebar can shrink below its minimum reasonable width, causing awkward text wrapping or truncation.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg681.jpg)
+![](assets/img681.jpg)
 
 In this situation, it makes much more sense to give the sidebar a fixed width that's optimized for its contents. The main content area can then flex to fill the remaining space, using its own internal grid to lay out its children.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg684.jpg)
+![](assets/img684.jpg)
 
 This applies within components, too — don't use percentages to size something unless you actually want it to scale.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg685.jpg)
+![](assets/img685.jpg)
 
 ### Don't shrink an element until you need to
 
 Say you're designing a login card. Using the full screen width would look ugly, so you give it a width of 6 columns (50%) with a 3-column offset on each side.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg688.jpg)
+![](assets/img688.jpg)
 
 On medium-sized screens you realize the card is a little narrow even though you have the space to make it bigger, so at that screen size you switch it to a width of 8 columns, with two empty columns on each side.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg689.jpg)
+![](assets/img689.jpg)
 
 The silly thing about this approach is that because column widths are fluid, there's a range in screen sizes where the login card is wider on medium screens than it is on large screens:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg692.jpg)
+![](assets/img692.jpg)
 
 If you know that say 500px is the optimal size for the card, why should it ever get smaller than that if you have the space for it?
 
 Instead of sizing elements like this based on a grid, give them a max-width so they don't get too large, and only force them to shrink when the screen gets smaller than that max-width.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg695.jpg)
+![](assets/img695.jpg)
 
 Don't be a slave to the grid — give your components the space they need and don't make any compromises until it's actually necessary.
 
@@ -851,17 +854,17 @@ It's tempting to believe that every part of an interface should be sized relativ
 
 For example, say you're designing an article at a large screen size. If your body copy is 18px and your headlines are 45px, it's tempting to encode that relationship by defining your headline size as 2.5em; 2.5 times the current font size.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg698.jpg)
+![](assets/img698.jpg)
 
 There's nothing inherently wrong with using relative units like em, but don't be fooled into believing that relationships defined this way can remain static — 2.5em might be the perfect headline size on desktop but there's no guarantee that it'll be the right size on smaller screens.
 
 Say you reduce the size of your body copy to 14px on small screens to keep the line length in check. Keeping your headlines at 2.5em means a rendered font size of 35px — way too big for a small screen!
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg701.jpg)
+![](assets/img701.jpg)
 
 A better headline size for small screens might be somewhere between 20px and 24px:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg702.jpg)
+![](assets/img702.jpg)
 
 That's only 1.5-1.7x the size of the 14px body copy — a totally different relationship than what made sense on desktop screens. That means there isn't any real relationship at all, and that there's no real benefit in trying to define the headline size relative to the body copy size.
 
@@ -873,17 +876,17 @@ The idea that things should scale independently doesn't just apply to sizing ele
 
 Say you've designed a button. It's got a 16px font size, 16px of horizontal padding, and 12px of vertical padding:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg705.jpg)
+![](assets/img705.jpg)
 
 Much like the previous example, it's tempting to think that the padding should be defined in terms of the current font size. That way if you want a larger or smaller button, you only need to change the font size and the padding will update automatically, right?
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg708.jpg)
+![](assets/img708.jpg)
 
 This works — the buttons do scale up or down and preserve the same proportions. But is that what we really want?
 
 Compare that to these buttons, where the padding gets more generous at larger sizes and disproportionately tighter at smaller sizes:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg709.jpg)
+![](assets/img709.jpg)
 
 Here the large button actually feels like a larger button, and the small buttons actually feel like smaller buttons, not like we simply adjusted the zoom.
 
@@ -895,31 +898,31 @@ Let go of the idea that everything needs to scale proportionately — giving you
 
 When groups of elements are explicitly separated — usually by a border or background color — it's obvious which elements belong to which group.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg712.jpg)
+![](assets/img712.jpg)
 
 But when there isn't a visible separator, it's not always so obvious.
 
 Say you're designing a form with stacked labels and inputs. If the margin below the label is the same as the margin below the input, the elements in the form group won't feel obviously "connected".
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg715.jpg)
+![](assets/img715.jpg)
 
 At best the user has to work harder to interpret the UI, and at worst it means accidentally putting the wrong data in the wrong field.
 
 The fix is to increase the space between each form group so it's clear which label belongs to which input:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg716.jpg)
+![](assets/img716.jpg)
 
 This same problem shows up in article design when there's not enough space above section headings:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg720.jpg)
+![](assets/img720.jpg)
 
 ...and in bulleted lists, when the space between bullets matches the line-height of a single bullet:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg719-1.jpg)
+![](assets/img719-1.jpg)
 
 It's not just vertical spacing that you have to worry about either; it's easy to make this mistake with components that are laid out horizontally, too:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg723.jpg)
+![](assets/img723.jpg)
 
 Whenever you're relying on spacing to connect a group of elements, always make sure there's more space around the group than there is within it — interfaces that are hard to understand always look worse.
 
@@ -931,7 +934,7 @@ Whenever you're relying on spacing to connect a group of elements, always make s
 
 Most interfaces use way too many font sizes. Unless a team has a rigid design system in place, it's not uncommon to find that every pixel value from 10px to 24px has been used in the UI *somewhere*.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg728.jpg)
+![](assets/img728.jpg)
 
 Choosing font sizes without a system is a bad idea for two reasons:
 
@@ -950,7 +953,7 @@ One approach is to calculate your type scale using a ratio, like 4:5 (a "major t
 
 You start with a sensible base value (16px is common since it's the default font size for most browsers), apply your ratio to get the next value, then apply your ratio to that value to get the next value, and so on and so forth:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg732.jpg)
+![](assets/img732.jpg)
 
 The mathematical purity of this approach is alluring, but in practice, it's not perfect for a couple of reasons.
 
@@ -976,11 +979,11 @@ For interface design, a more practical approach is to simply pick values by hand
 
 Here's an example of a scale that works well for most projects and aligns nicely with the spacing and sizing scale recommended in "Establishing a spacing and sizing system":
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg737.jpg)
+![](assets/img737.jpg)
 
 It's constrained just enough to speed up your decision making, but isn't so limited as to make you feel like you're missing a useful size.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg740.jpg)
+![](assets/img740.jpg)
 
 ### Avoid em units
 
@@ -990,7 +993,7 @@ Because em units are relative to the current font size, the computed font size o
 
 For example, say you've defined an em-based type scale like this:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg741.jpg)
+![](assets/img741.jpg)
 
 If you give an element a font size of 1.25em (20px by default), inside of that element 1em is now equal to 20px. That means that if you give one of the nested elements a font size of .875em, the actual computed font size is 17.5px, not a value from your type scale!
 
@@ -1002,7 +1005,7 @@ Stick to px or rem units — it's the only way to guarantee you're actually stic
 
 With thousands of different typefaces out there to choose from, separating the good from the bad can be an intimidating task.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg746.jpg)
+![](assets/img746.jpg)
 
 Developing an eye for all of the details that make a good typeface can take years. You probably don't have years, so here are a few tricks you can use to start picking out high quality typefaces right away.
 
@@ -1026,7 +1029,7 @@ Many font directories (like Google Fonts) will let you filter by "number of styl
 
 A great way to limit the number of options you have to choose from is to crank that up to 10+ (to account for italics):
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg749.jpg)
+![](assets/img749.jpg)
 
 On Google Fonts specifically, that cuts out 85% of the available options, leaving you with less than 50 sans-serifs to choose from.
 
@@ -1034,7 +1037,7 @@ On Google Fonts specifically, that cuts out 85% of the available options, leavin
 
 When someone designs a font family, they are usually designing it for a specific purpose. Fonts meant for headlines usually have tighter letter-spacing and shorter lowercase letters (a shorter x-height), while fonts meant for smaller sizes have wider letter-spacing and taller lowercase letters.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg752.jpg)
+![](assets/img752.jpg)
 
 Keep this in mind and avoid using condensed typefaces with short x-heights for your main UI text.
 
@@ -1044,7 +1047,7 @@ If a font is popular, it's probably a good font. Most font directories will let 
 
 This is especially useful when you're trying to pick out something other than a neutral UI typeface. Picking a nice serif with some personality for example can be tough.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg755.jpg)
+![](assets/img755.jpg)
 
 Leveraging the collective decision-making power of thousands of other people can make it a lot easier.
 
@@ -1052,7 +1055,7 @@ Leveraging the collective decision-making power of thousands of other people can
 
 Inspect some of your favorite sites and see what typefaces they are using.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg756.jpg)
+![](assets/img756.jpg)
 
 There are a lot of great design teams out there full of people with really strong opinions about typography, and they'll often choose great fonts that you might have never found using some of the safer approaches outlined above.
 
@@ -1070,13 +1073,13 @@ When styling paragraphs, it's easy to make the mistake of fitting the text to yo
 
 Usually this means lines that are too long, making text harder to read.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg761.jpg)
+![](assets/img761.jpg)
 
 For the best reading experience, make your paragraphs wide enough to fit between 45 and 75 characters per line. The easiest way to do this on the web is using em units, which are relative to the current font size. A width of 20-35em will get you in the right ballpark.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg762.jpg)
+![](assets/img762.jpg)
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg765.jpg)
+![](assets/img765.jpg)
 
 Going a bit wider than 75 characters per line can sometimes work too, but be aware that you're entering risky territory — stick to the 45-75 range if you want to play it safe.
 
@@ -1084,9 +1087,9 @@ Going a bit wider than 75 characters per line can sometimes work too, but be awa
 
 If you're mixing paragraph text with images or other large components, you should still limit the paragraph width even if the overall content area needs to be wider to accommodate the other elements.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg766.jpg)
+![](assets/img766.jpg)
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg769.jpg)
+![](assets/img769.jpg)
 
 It might seem counterintuitive at first to use different widths in the same content area, but the result almost always looks more polished.
 
@@ -1100,19 +1103,19 @@ For example, maybe you're designing a card that has a large title in the top lef
 
 When you're mixing font sizes like this, your instinct might be to vertically center the text for balance:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg772.jpg)
+![](assets/img772.jpg)
 
 When there's a decent amount of space between the different font sizes it often won't look bad enough to catch your attention, but when the text is close together the awkward alignment becomes more obvious:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg775.jpg)
+![](assets/img775.jpg)
 
 A better approach is to align mixed font sizes by their baseline, which is the imaginary line that letters rest on:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg776.jpg)
+![](assets/img776.jpg)
 
 When you align mixed font sizes by their baseline, you're taking advantage of an alignment reference that your eyes already perceive.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg779.jpg)
+![](assets/img779.jpg)
 
 The result is a simpler, cleaner look than what you get when you center two pieces of text and offset their baselines.
 
@@ -1122,7 +1125,7 @@ The result is a simpler, cleaner look than what you get when you center two piec
 
 You might have heard the advice that a line-height of about 1.5 is a good starting point from a readability perspective.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg782.jpg)
+![](assets/img782.jpg)
 
 While that's not necessarily untrue, choosing the right line-height for your text is a bit more complicated than just using the same value across the board in all situations.
 
@@ -1132,13 +1135,13 @@ The reason we add space between lines of text is to make it easy for the reader 
 
 When lines of text are spaced too tightly, it's easy to finish reading a line of text at the right edge of a page then jump your eyes all the way back to the left edge only to be unsure which line is next.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg785.jpg)
+![](assets/img785.jpg)
 
 This problem is magnified when lines of text are long. The further your eyes have to jump horizontally to read the next line, the easier it is to lose your place.
 
 That means that your line-height and paragraph width should be proportional — narrow content can use a shorter line-height like 1.5, but wide content might need a line-height as tall as 2.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg786.jpg)
+![](assets/img786.jpg)
 
 ### Accounting for font size
 
@@ -1146,11 +1149,11 @@ Line length isn't the only factor in choosing the right line-height — font siz
 
 When text is small, extra line spacing is important because it makes it a lot easier for your eyes to find the next line when the text wraps.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg789.jpg)
+![](assets/img789.jpg)
 
 But as text gets larger, your eyes don't need as much help. This means that for large headline text you might not need any extra line spacing, and a line-height of 1 is perfectly fine.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg792.jpg)
+![](assets/img792.jpg)
 
 Line-height and font size are inversely proportional — use a taller line-height for small text and a shorter line-height for large text.
 
@@ -1160,19 +1163,19 @@ Line-height and font size are inversely proportional — use a taller line-heigh
 
 When you're including a link in a block of otherwise non-link text, it's important to make sure that the link stands out and looks clickable.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg795.jpg)
+![](assets/img795.jpg)
 
 But when you're designing an interface where almost everything is a link, using a treatment designed to make links "pop" in paragraph text can be really overbearing.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg796.jpg)
+![](assets/img796.jpg)
 
 Instead, emphasize most links in a more subtle way, like by just using a heavier font weight or darker color.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg799.jpg)
+![](assets/img799.jpg)
 
 Some links might not even need to be emphasized by default at all. If you've got links in your interface that are really ancillary and not part of the main path a user takes through the application, consider adding an underline or changing the color only on hover.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg800.jpg)
+![](assets/img800.jpg)
 
 They'll still be discoverable to any users who think to try, but won't compete for attention with more important actions on the page.
 
@@ -1182,7 +1185,7 @@ They'll still be discoverable to any users who think to try, but won't compete f
 
 In general, text should be aligned to match the direction of the language it's written in. For English (and most other languages), that means that the vast majority of text should be left-aligned.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg803.jpg)
+![](assets/img803.jpg)
 
 Other alignment options do have their place though, you just need to use them effectively.
 
@@ -1190,15 +1193,15 @@ Other alignment options do have their place though, you just need to use them ef
 
 Center-alignment can look great for headlines or short, independent blocks of text.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg804.jpg)
+![](assets/img804.jpg)
 
 But if something is longer than two or three lines, it will almost always look better left-aligned.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg807.jpg)
+![](assets/img807.jpg)
 
 If you've got a few blocks of text you want to center but one of them is a bit too long, the easiest fix is to rewrite the content and make it shorter:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg808.jpg)
+![](assets/img808.jpg)
 
 Not only will it fix the alignment issue, it will make your design feel more consistent, too.
 
@@ -1206,7 +1209,7 @@ Not only will it fix the alignment issue, it will make your design feel more con
 
 If you're designing a table that includes numbers, right-align them.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg811.jpg)
+![](assets/img811.jpg)
 
 When the decimal in a list of numbers is always in the same place, they're a lot easier to compare at a glance.
 
@@ -1214,11 +1217,11 @@ When the decimal in a list of numbers is always in the same place, they're a lot
 
 Justified text looks great in print and can work well on the web when you're going for a more formal look, but without special care, it can create a lot of awkward gaps between words:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg812.jpg)
+![](assets/img812.jpg)
 
 To avoid this, whenever you justify text, you should also enable hyphenation:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg815.jpg)
+![](assets/img815.jpg)
 
 Justified text works best in situations where you're trying to mimic a print look, perhaps for an online magazine or newspaper. Even then, left aligned text works great too, so it's really just a matter of preference.
 
@@ -1228,7 +1231,7 @@ Justified text works best in situations where you're trying to mimic a print loo
 
 When styling text, a lot of effort is put into getting the weight, color, and line-height just right, but it's easy to forget that letter-spacing can be tweaked, too.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg818.jpg)
+![](assets/img818.jpg)
 
 As a general rule, you should trust the typeface designer and leave letter-spacing alone. That said, there are a couple of common situations where adjusting it can improve your designs.
 
@@ -1238,11 +1241,11 @@ When someone designs a font family, they design it with a purpose in mind.
 
 A family like Open Sans is designed to be highly legible even at small sizes, so the built-in letter-spacing is a lot wider than a family like Oswald which is designed for headlines.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg821.jpg)
+![](assets/img821.jpg)
 
 If you want to use a family with wider letter-spacing for headlines or titles, it can often make sense to decrease the letter-spacing to mimic the condensed look of a purpose-built headline family:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg822.jpg)
+![](assets/img822.jpg)
 
 Avoid trying to make this work the other way around though — headline fonts rarely work well at small sizes even if you increase the letter spacing.
 
@@ -1252,13 +1255,13 @@ The letter-spacing in most font families is optimized for normal "sentence case"
 
 Lowercase letters have a lot of variety visually. Letters like n, v, and e fit entirely within a typeface's x-height, other letters like y, g, and p have descenders that poke out below the baseline, and letters like b, f, and t have ascenders that extend above.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg825.jpg)
+![](assets/img825.jpg)
 
 All-caps text on the other hand isn't so diverse. Since every letter is the same height, using the default letter-spacing often leads to text that is harder to read because there are fewer distinguishing characteristics between letters.
 
 For that reason, it often makes sense to increase the letter-spacing of all-caps text to improve readability:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg826.jpg)
+![](assets/img826.jpg)
 
 ---
 
@@ -1270,29 +1273,29 @@ Hex and RGB are the most common formats for representing color on the web, but t
 
 Using hex or RGB, colors that have a lot in common visually look nothing alike in code.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg831.jpg)
+![](assets/img831.jpg)
 
 HSL fixes this by representing colors using attributes the human-eye intuitively perceives: hue, saturation, and lightness.
 
 **Hue** is a color's position on the color wheel — it's the attribute of a color that lets us identify two colors as "blue" even if they aren't identical.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg832.jpg)
+![](assets/img832.jpg)
 
 Hue is measured in degrees, where 0° is red, 120° is green, and 240° is blue.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg835.jpg)
+![](assets/img835.jpg)
 
 **Saturation** is how colorful or vivid a color looks. 0% saturation is grey (no color), and 100% saturation is vibrant and intense.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg836.jpg)
+![](assets/img836.jpg)
 
 Without saturation, hue is irrelevant — rotating the hue when saturation is 0% doesn't actually change the color at all.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg837.jpg)
+![](assets/img837.jpg)
 
 **Lightness** is just what it sounds like — it measures how close a color is to black or to white. 0% lightness is pure black, 100% lightness is pure white, and 50% lightness is a pure color at the given hue.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg840.jpg)
+![](assets/img840.jpg)
 
 ### HSL vs. HSB
 
@@ -1300,7 +1303,7 @@ Don't confuse HSL for HSB — lightness in HSL is not the same as brightness in 
 
 In HSB, 0% brightness is always black, but 100% brightness is only white when the saturation is 0%. When saturation is 100%, 100% brightness in HSB is the same as 100% saturation and 50% lightness in HSL.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg841.jpg)
+![](assets/img841.jpg)
 
 HSB is more common than HSL in design software, but browsers only understand HSL, so if you're designing for the web, HSL should be your weapon of choice.
 
@@ -1310,17 +1313,17 @@ HSB is more common than HSL in design software, but browsers only understand HSL
 
 Ever used one of those color palette generators where you pick a starting color, tweak some options, and are then bestowed the five perfect colors you should use to build your website?
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg846.jpg)
+![](assets/img846.jpg)
 
 This calculated approach to picking the perfect color scheme is extremely seductive, but it's not very useful unless you want your site to look like this:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg847.jpg)
+![](assets/img847.jpg)
 
 ### What you actually need
 
 You can't build anything with five hex codes. To build something real, you need a much more comprehensive set of colors to choose from.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg850.jpg)
+![](assets/img850.jpg)
 
 You can break a good color palette down into three categories.
 
@@ -1328,13 +1331,13 @@ You can break a good color palette down into three categories.
 
 Text, backgrounds, panels, form controls — almost everything in an interface is grey.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg853.jpg)
+![](assets/img853.jpg)
 
 You'll need more greys than you think, too — three or four shades might sound like plenty but it won't be long before you wish you had something a little darker than shade #2 but a little lighter than shade #3.
 
 In practice, you want 8-10 shades to choose from (more on this in "Define your shades up front"). Not so many that you waste time deciding between shade #77 and shade #78, but enough to make sure you don't have to compromise too much.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg854.jpg)
+![](assets/img854.jpg)
 
 True black tends to look pretty unnatural, so start with a really dark grey and work your way up to white in steady increments.
 
@@ -1344,7 +1347,7 @@ Most sites need one, maybe two colors that are used for primary actions, active 
 
 Just like with greys, you need a variety (5-10) of lighter and darker shades to choose from.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg857.jpg)
+![](assets/img857.jpg)
 
 Ultra-light shades can be useful as a tinted background for things like alerts, while darker shades work great for text.
 
@@ -1354,19 +1357,19 @@ On top of primary colors, every site needs a few accent colors for communicating
 
 For example, you might want to use an eye-grabbing color like yellow, pink, or teal to highlight a new feature:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg858.jpg)
+![](assets/img858.jpg)
 
 You might also need colors to emphasize different semantic states, like red for confirming a destructive action:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg861.jpg)
+![](assets/img861.jpg)
 
 ...yellow for a warning message:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg862.jpg)
+![](assets/img862.jpg)
 
 ...or green to highlight a positive trend:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg863.jpg)
+![](assets/img863.jpg)
 
 You'll want multiple shades for these colors too, even though they should be used pretty sparingly throughout the UI.
 
@@ -1382,7 +1385,7 @@ When you need to create a lighter or darker variation of a color in your palette
 
 Instead, define a fixed set of shades up front that you can choose from as you work.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg868.jpg)
+![](assets/img868.jpg)
 
 So how do you put together a palette like this anyways?
 
@@ -1392,7 +1395,7 @@ Start by picking a base color for the scale you want to create — the color in 
 
 There's no real scientific way to do this, but for primary and accent colors, a good rule of thumb is to pick a shade that would work well as a button background.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg871.jpg)
+![](assets/img871.jpg)
 
 It's important to note that there are no real rules here like "start at 50% lightness" or anything — every color behaves a bit differently, so you'll have to rely on your eyes for this one.
 
@@ -1404,7 +1407,7 @@ The darkest shade of a color is usually reserved for text, while the lightest sh
 
 A simple alert component is a good example that combines both of these use cases, so it can be a great place to pick these colors.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg872.jpg)
+![](assets/img872.jpg)
 
 Start with a color that matches the hue of your base color, and adjust the saturation and lightness until you're satisfied.
 
@@ -1416,15 +1419,15 @@ For most projects, you'll need at least 5 shades per color, and probably closer 
 
 Nine is a great number because it's easy to divide and makes filling in the gaps a little more straightforward. Let's call our darkest shade 900, our base shade 500, and our lightest shade 100.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg875.jpg)
+![](assets/img875.jpg)
 
 Start by picking shades 700 and 300, the ones right in the middle of the gaps. You want these shades to feel like the perfect compromise between the shades on either side.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg876.jpg)
+![](assets/img876.jpg)
 
 This creates four more holes in the scale (800, 600, 400, and 200), which you can fill using the same approach.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg877.jpg)
+![](assets/img877.jpg)
 
 You should end up with a pretty balanced set of colors that provide just enough options to accommodate your design ideas without feeling limiting.
 
@@ -1432,7 +1435,7 @@ You should end up with a pretty balanced set of colors that provide just enough 
 
 With greys the base color isn't as important, but otherwise the process is the same. Start at the edges and fill in the gaps until you have what you need.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg880.jpg)
+![](assets/img880.jpg)
 
 Pick your darkest grey by choosing a color for the darkest text in your project, and your lightest grey by choosing something that works well for a subtle off-white background.
 
@@ -1452,11 +1455,11 @@ Just try to avoid adding new shades too often if you can avoid it. If you're not
 
 In the HSL color space, as a color gets closer to 0% or 100% lightness, the impact of saturation is weakened — the same saturation value at 50% lightness looks more colorful than it does at 90% lightness.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg883.jpg)
+![](assets/img883.jpg)
 
 That means that if you don't want the lighter and darker shades of a given color to look washed out, you need to increase the saturation as the lightness gets further away from 50%.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg884.jpg)
+![](assets/img884.jpg)
 
 It's subtle but little details like this add up, especially when a color is being applied to a large section of a UI.
 
@@ -1466,21 +1469,21 @@ But what if your base color is already heavily saturated? How do you increase th
 
 Which of these two colors do you think is lighter?
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg887.jpg)
+![](assets/img887.jpg)
 
 The yellow, right? Well it turns out both colors actually have the exact same "lightness" in terms of HSL:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg888.jpg)
+![](assets/img888.jpg)
 
 So why do we see the yellow as lighter? Well it turns out that every hue has an inherent perceived brightness due to how the human eye perceives color.
 
 You can calculate the perceived brightness of a color by plugging its RGB components into this formula:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg889.jpg)
+![](assets/img889.jpg)
 
 Taking samples of different hues with 100% saturation and 50% lightness, we can get a good sense of the perceived brightness of different colors around the color wheel:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg892.jpg)
+![](assets/img892.jpg)
 
 As expected, yellow has a higher perceived brightness than blue. But what's interesting here is that perceived brightness doesn't simply change linearly from the darkest hue to the lightest hue — instead, there are three separate local minimums (red, green, and blue) and three local maximums (yellow, cyan, and magenta).
 
@@ -1490,29 +1493,29 @@ On the surface, this is certainly an interesting thing to understand about color
 
 Normally when you want to change how light a color looks, you adjust the lightness component:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg895.jpg)
+![](assets/img895.jpg)
 
 While this does work to lighten or darken a color, you often lose some of the color's intensity — the color also looks closer to white or to black, not just lighter or darker.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg896.jpg)
+![](assets/img896.jpg)
 
 Since different hues have a different perceived brightness, another way you can change the brightness of a color is by rotating its hue.
 
 To make a color lighter, rotate the hue towards the nearest bright hue — 60°, 180°, or 300°.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg897.jpg)
+![](assets/img897.jpg)
 
 To make a color darker, rotate the hue towards the nearest dark hue — 0°, 120°, or 240°.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg900.jpg)
+![](assets/img900.jpg)
 
 This can be really useful when trying to create a palette for a light color like yellow. By gradually rotating the hue towards more of an orange as you decrease the lightness, the darker shades will feel warm and rich instead of dull and brown:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg901.jpg)
+![](assets/img901.jpg)
 
 You can of course combine these approaches too, getting some of the brightness by adjusting the hue and some from adjusting the lightness.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg902.jpg)
+![](assets/img902.jpg)
 
 While this is a great way to change a color's brightness without affecting its intensity, it works best in small doses. Don't rotate the hue more than 20-30° or it will look like a totally different color instead of just lighter or darker.
 
@@ -1522,11 +1525,11 @@ While this is a great way to change a color's brightness without affecting its i
 
 By definition, true grey has a saturation of 0% — it doesn't have any actual color in it at all.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg907.jpg)
+![](assets/img907.jpg)
 
 But in practice, a lot of the colors that we think of as grey are actually saturated quite heavily:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg908.jpg)
+![](assets/img908.jpg)
 
 This saturation is what makes some greys feel cool and other greys feel warm.
 
@@ -1538,11 +1541,11 @@ Saturating greys in a user interface works in a similar same way.
 
 If you want your greys to feel cool, saturate them with a bit of blue:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg911.jpg)
+![](assets/img911.jpg)
 
 To give your greys a warmer feel, saturate them with a bit of yellow or orange:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg912.jpg)
+![](assets/img912.jpg)
 
 To maintain a consistent temperature, don't forget to increase the saturation for the lighter and darker shades. If you don't, those shades will look a bit washed out compared to the greys that are closer to 50% lightness.
 
@@ -1554,7 +1557,7 @@ How much you want to saturate your greys is completely up to you — add just a 
 
 To make sure your designs are accessible, the Web Content Accessibility Guidelines (WCAG) recommend that normal text (under ~18px) has a contrast ratio of at least 4.5:1, and that larger text has a contrast ratio of at least 3:1.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg918.jpg)
+![](assets/img918.jpg)
 
 For typical dark-text-on-a-light-background situations, meeting this recommendation is pretty easy, but it gets a lot trickier when you start working with color.
 
@@ -1562,15 +1565,15 @@ For typical dark-text-on-a-light-background situations, meeting this recommendat
 
 When using white text on a colored background, you'd be surprised how dark the color often needs to be to meet that 4.5:1 contrast ratio.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg921.jpg)
+![](assets/img921.jpg)
 
 This can create hierarchy issues when those elements aren't supposed to be the focus of the page — dark colored backgrounds will really grab the user's attention.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg922.jpg)
+![](assets/img922.jpg)
 
 You can solve this problem by flipping the contrast. Instead of using light text on a dark colored background, use dark colored text on a light colored background:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg925.jpg)
+![](assets/img925.jpg)
 
 The color is still there to help support the text, but it's way less in-your-face and doesn't interfere as much with other actions on the page.
 
@@ -1580,13 +1583,13 @@ Even harder than white text on a colored background is colored text on a colored
 
 If you start by taking the background color and simply adjusting the lightness and saturation, you'll find that it's hard to meet the recommended contrast ratio without getting very close to pure white.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg928.jpg)
+![](assets/img928.jpg)
 
 You don't want the primary text and the secondary text to look the same, so what else can you do?
 
 Well since some colors are brighter than others, one way to increase the contrast without getting closer to white is to rotate the hue towards a brighter color, like cyan, magenta, or yellow.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg929.jpg)
+![](assets/img929.jpg)
 
 This can make it a lot easier to make the text accessible while still keeping it colorful.
 
@@ -1598,19 +1601,19 @@ Color can be a fantastic way to enhance information and make it easier to unders
 
 Take these metric cards for example. With this design, someone who is red-green colorblind can't easily tell if a metric has gotten better or worse:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg932.jpg)
+![](assets/img932.jpg)
 
 An easy fix for this is to also communicate that information in some other way, like by adding icons to indicate if the change is positive or negative.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg935.jpg)
+![](assets/img935.jpg)
 
 What about something like a graph, where each trend line has a different color?
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg936.jpg)
+![](assets/img936.jpg)
 
 In situations like this, try relying on contrast instead of using completely different colors. It's much easier for someone who's colorblind to tell the difference between light and dark than it is for them to tell the difference between two distinct colors.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg939.jpg)
+![](assets/img939.jpg)
 
 Always use color to support something that your design is already saying; never use it as the only means of communication.
 
@@ -1622,7 +1625,7 @@ Always use color to support something that your design is already saying; never 
 
 Have you ever noticed how some elements in an interface feel like they're raised off of the page, while others feel like they are inset into the background?
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg944.jpg)
+![](assets/img944.jpg)
 
 Creating this effect might look complicated at first, but it actually only requires you to understand one fundamental rule.
 
@@ -1630,23 +1633,23 @@ Creating this effect might look complicated at first, but it actually only requi
 
 Take a look at the panelling on this door:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg947.jpg)
+![](assets/img947.jpg)
 
 Even though you're just looking at a flat image, it's still pretty obvious that the panels on the door are raised. Why is that?
 
 Notice how the top edge of the panel is lighter? That's because it's angled towards the sky and receives more light. Similarly, the bottom edge is darker because it's angled away from the sky, receiving less light.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg948.jpg)
+![](assets/img948.jpg)
 
 The only way those edges could possibly be oriented that way is if the panel itself is raised, so that's how our brains perceive it.
 
 Now take a look at the panelling on this cabinet:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg951.jpg)
+![](assets/img951.jpg)
 
 In this case it's clear that the panels are inset because there's a shadow at the top indicating that the lip above is blocking the light, and the bottom edge is lighter, indicating that it's angled upward.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg952.jpg)
+![](assets/img952.jpg)
 
 To create this same sense of depth in your designs, all you need to do is mimic the way light affects things in the real world.
 
@@ -1658,13 +1661,13 @@ If you want an element to appear raised or inset, first figure out what profile 
 
 For example, say you had a button and you wanted it to feel raised off of the page, with perfectly flat edges on the top and bottom:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg955.jpg)
+![](assets/img955.jpg)
 
 Because the top and bottom edges are both flat, it would be impossible to see both of them at the same time. People generally look slightly downward towards their screens, so for the most natural look, reveal a little bit of the top edge and hide the bottom edge.
 
 Since the top edge is facing upward, make it slightly lighter than the face of the button, usually using a top border or an inset box shadow with a slight vertical offset:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg959.jpg)
+![](assets/img959.jpg)
 
 Choose the lighter color by hand instead of using a semi-transparent white for best results — simply overlaying white can suck the saturation out of the underlying color.
 
@@ -1672,7 +1675,7 @@ Next, you need to account for the fact that a raised element will block some of 
 
 Do this by adding a small dark box shadow with a slight vertical offset (you only want the shadow to appear below the element):
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg960.jpg)
+![](assets/img960.jpg)
 
 Don't get carried away with the blur radius, a couple of pixels is plenty. These sorts of shadows should have pretty sharp edges — take a look at the shadow cast by the bottom of a wall outlet or window frame for a real-world example.
 
@@ -1680,19 +1683,19 @@ Don't get carried away with the blur radius, a couple of pixels is plenty. These
 
 Say you're designing a "well" component that should feel like it's recessed into the page.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg963.jpg)
+![](assets/img963.jpg)
 
 Looking slightly downward, only the bottom lip would be visible. Since it's facing towards the sky, give that edge a slightly lighter color using a bottom border or inset shadow with a negative vertical offset:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg964.jpg)
+![](assets/img964.jpg)
 
 The area above the well should block some of the light from reaching the very top of the well, so add a small dark inset box shadow with a slight positive vertical offset to make sure it doesn't poke through at the bottom:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg967.jpg)
+![](assets/img967.jpg)
 
 This same treatment works for any element that may need to appear inset, for example text inputs and checkboxes:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg968.jpg)
+![](assets/img968.jpg)
 
 ### Don't get carried away
 
@@ -1708,21 +1711,21 @@ Shadows can be more than just a flashy effect — used thoughtfully, they let yo
 
 Small shadows with a tight blur radius make an element feel only slightly raised off of the background, while larger shadows with a higher blur radius make an element feel much closer to the user:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg973.jpg)
+![](assets/img973.jpg)
 
 The closer something feels to the user, the more it will attract their focus.
 
 You might use a smaller shadow for something like a button, where you want the user to notice it but don't want it to dominate the page:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg976.jpg)
+![](assets/img976.jpg)
 
 Medium shadows are useful for things like dropdowns; elements that need to sit a bit further above the rest of the UI:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg977.jpg)
+![](assets/img977.jpg)
 
 Large shadows are great for modal dialogs, where you really want to capture the user's attention:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg980.jpg)
+![](assets/img980.jpg)
 
 ### Establishing an elevation system
 
@@ -1732,7 +1735,7 @@ You don't need a ton of different shadows — five options is usually plenty.
 
 Start by defining your smallest shadow and your largest shadow, then fill in the middle with shadows that increase in size pretty linearly:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg983.jpg)
+![](assets/img983.jpg)
 
 ### Combining shadows with interaction
 
@@ -1740,11 +1743,11 @@ Shadows aren't only useful for positioning elements on the z-axis statically; th
 
 For example, say you had a list of items where the user could click and drag each item to sort them. Adding a shadow to an item when a user clicks it makes it feel like it pops forward above the other items in the list, and makes it clear to the user that they can drag it:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg984.jpg)
+![](assets/img984.jpg)
 
 Similarly, you can make a button feel like it's being pressed into the page when a user clicks it by switching to a smaller shadow, or perhaps removing the shadow altogether:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg987.jpg)
+![](assets/img987.jpg)
 
 Using shadows in a meaningful way like this is a great way to hack the process of choosing what sort of shadow an element should have. Don't think about the shadow itself, think about where you want the element to sit on the z-axis and assign it a shadow accordingly.
 
@@ -1754,7 +1757,7 @@ Using shadows in a meaningful way like this is a great way to hack the process o
 
 Ever inspected a really nice shadow on a site and noticed they were actually using two shadows?
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg990.jpg)
+![](assets/img990.jpg)
 
 There's a method to this madness, and it's actually pretty simple and makes a lot of sense.
 
@@ -1762,15 +1765,15 @@ When you see someone combining two shadows, they're not just experimenting rando
 
 The first shadow is larger and softer, with a considerable vertical offset and large blur radius. It simulates the shadow cast behind an object by a direct light source.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg993.jpg)
+![](assets/img993.jpg)
 
 The second shadow is tighter and darker, with less of a vertical offset and a smaller blur radius. It simulates the shadowed area underneath an object where even ambient light has a hard time reaching.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg994.jpg)
+![](assets/img994.jpg)
 
 Using two shadows like this gives you a lot more control than you'd get with a single shadow — you can keep the larger shadow nice and subtle while still making the shadow closer the element's edges nice and defined.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg997.jpg)
+![](assets/img997.jpg)
 
 ### Accounting for elevation
 
@@ -1778,7 +1781,7 @@ As an object gets further away from a surface, the small, dark shadow created by
 
 So if you're going to use this two-shadow technique in your own projects, make sure you make that shadow more subtle for shadows that represent a higher elevation.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1000.jpg)
+![](assets/img1000.jpg)
 
 It should be quite distinct for your lowest elevation, and almost (or completely) invisible at your highest elevation.
 
@@ -1788,7 +1791,7 @@ It should be quite distinct for your lowest elevation, and almost (or completely
 
 When most people talk about "flat design", they mean designing without shadows, gradients, or any other effects that try to mimic how light interacts with things in the real-world.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1003.jpg)
+![](assets/img1003.jpg)
 
 But the most effective flat designs still convey depth, they just do it in a different way.
 
@@ -1798,7 +1801,7 @@ In general (especially with shades of the same color), lighter objects feel clos
 
 Make an element lighter than the background color to make it feel like it's raised off of the page, or darker than the background color if you want it to feel inset like a well:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1006.jpg)
+![](assets/img1006.jpg)
 
 This is just as applicable to non-flat designs, too — color is just another tool in your toolbelt for conveying distance.
 
@@ -1806,7 +1809,7 @@ This is just as applicable to non-flat designs, too — color is just another to
 
 Another way to communicate depth in a flat design is to use short, vertically offset shadows with no blur radius at all.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1009.jpg)
+![](assets/img1009.jpg)
 
 It's a great way to make a card or button stand off the page a little bit without sacrificing that flat aesthetic.
 
@@ -1818,25 +1821,25 @@ One of the most effective ways to create depth is to overlap different elements 
 
 For example, instead of containing a card entirely within another element, offset it so it crosses the transition between two different backgrounds:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1012.jpg)
+![](assets/img1012.jpg)
 
 You could also make an element taller than its parent, so it overlaps on both sides:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1015.jpg)
+![](assets/img1015.jpg)
 
 Overlapping elements can add depth to smaller components too, for example the controls on this carousel:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1016.jpg)
+![](assets/img1016.jpg)
 
 ### Overlapping images
 
 This technique can work great with images as well, but without special consideration it's easy for overlapping images to clash.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1019.jpg)
+![](assets/img1019.jpg)
 
 A simple trick for avoiding this is to give the images an "invisible border" — one that matches the background color — so there's always a bit of a gap between images:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1020.jpg)
+![](assets/img1020.jpg)
 
 You'll still create the appearance of layers but with none of the ugly clashing.
 
@@ -1848,7 +1851,7 @@ You'll still create the appearance of layers but with none of the ugly clashing.
 
 Bad photos will ruin a design, even if everything else about it looks great.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1025.jpg)
+![](assets/img1025.jpg)
 
 If your design needs photography and you're not a talented photographer, you've got two options:
 
@@ -1870,7 +1873,7 @@ Whatever you do, don't design using placeholder images and expect to be able to 
 
 Ever tried to slap a headline on a big hero image, only to find that no matter what color you tried for the text, it was still hard to read?
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1030.jpg)
+![](assets/img1030.jpg)
 
 That's because the problem isn't the text, it's the image.
 
@@ -1878,7 +1881,7 @@ That's because the problem isn't the text, it's the image.
 
 Photos can be very dynamic, with a lot of really light areas, and a lot of really dark areas. White text might look great in the dark areas, but it gets lost in the light areas. Dark text looks great in the light areas, but gets lost in the dark areas.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1033.jpg)
+![](assets/img1033.jpg)
 
 To solve this problem, you need to reduce the dynamics in the image to make the contrast between the text and the background more consistent.
 
@@ -1886,7 +1889,7 @@ To solve this problem, you need to reduce the dynamics in the image to make the 
 
 One way to increase the overall text contrast is to add a semi-transparent overlay to the background image.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1034.jpg)
+![](assets/img1034.jpg)
 
 A black overlay will tone down the light areas and help light text stand out, while a white overlay will brighten up the dark areas and help dark text stand out.
 
@@ -1896,7 +1899,7 @@ One of the compromises you make when using an overlay is that you're lightening 
 
 If you want more control, another solution is to lower the contrast of the image itself:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1037.jpg)
+![](assets/img1037.jpg)
 
 Lowering the contrast will change how light or dark the image feels overall, so make sure to adjust the brightness to compensate.
 
@@ -1910,7 +1913,7 @@ Some photo editing software includes this as a first-class feature, but if yours
 2. Desaturate the image, to remove any existing color.
 3. Add a solid fill, using the "multiply" blend mode.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1040.jpg)
+![](assets/img1040.jpg)
 
 This can also be a great way to make a background image pair more nicely with your existing brand colors.
 
@@ -1920,7 +1923,7 @@ If you want to preserve a bit more of the dynamics in a background image, a text
 
 You want it to look more like a subtle glow than an actual shadow, so use a large blur radius and don't add any kind of offset.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1043.jpg)
+![](assets/img1043.jpg)
 
 It's still a good idea to reduce the overall image contrast, but combining that with a text shadow means you can reduce it a little less.
 
@@ -1930,7 +1933,7 @@ It's still a good idea to reduce the overall image contrast, but combining that 
 
 Everyone knows that scaling bitmap images to larger than their original size is a bad idea — they immediately feel "fuzzy" and lose their definition.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1046.jpg)
+![](assets/img1046.jpg)
 
 But that's not the only way you can go wrong with scaling, even when you think you're playing it safe.
 
@@ -1940,19 +1943,19 @@ If you're designing something that could use some large icons (like maybe the "f
 
 They're vector images after all, so the quality isn't going to suffer if you increase the size, right?
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1047.jpg)
+![](assets/img1047.jpg)
 
 While it's true that vector images won't degrade in quality when you increase their size, icons that were drawn at 16–24px are never going to look very professional when you blow them up to 3x or 4x their intended size. They lack detail, and always feel disproportionately "chunky".
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1050.jpg)
+![](assets/img1050.jpg)
 
 If small icons are all you've got, try enclosing them inside another shape and giving the shape a background color:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1051.jpg)
+![](assets/img1051.jpg)
 
 This lets you keep the actual icon closer to its intended size, while still filling the larger space.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1052.jpg)
+![](assets/img1052.jpg)
 
 ### Don't scale down screenshots
 
@@ -1960,21 +1963,21 @@ Say you want to include a screenshot of your app on that same features page.
 
 If you take a full-size screenshot and shrink it by 70% to make it fit, you'll end up with an image that's trying to cram way too much detail into far too little space.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1055.jpg)
+![](assets/img1055.jpg)
 
 The 16px font in your app becomes a 4px font in your screenshot, and visitors will be squinting with their eyeballs two inches from the screen, struggling to make out what all that text says.
 
 If you want to include a detailed screenshot in your design, take the screenshot at a smaller screen size (like maybe your tablet layout) and save a lot of space for it so you don't have to shrink it as much:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1058.jpg)
+![](assets/img1058.jpg)
 
 Or consider taking just a partial screenshot, so you can display it in less space without needing to scale it down:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1059.jpg)
+![](assets/img1059.jpg)
 
 If you really need to fit a whole-app screenshot in a tight space, try drawing a simplified version of the UI with details removed and small text replaced with simple lines:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1062.jpg)
+![](assets/img1062.jpg)
 
 It'll still communicate the big-picture design without tempting visitors to try and make out all of the details.
 
@@ -1986,11 +1989,11 @@ The most extreme example of this are favicons, those little icons you see next t
 
 If you try to shrink a logo drawn at 128px down to favicon size, it all turns to mush as the browser tries its best to render all of that detail in a tiny 16px square:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1065.jpg)
+![](assets/img1065.jpg)
 
 A better approach is to redraw a super simplified version of the logo at the target size, so you control the compromises instead of leaving it up to the browser:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1066.jpg)
+![](assets/img1066.jpg)
 
 ---
 
@@ -2004,31 +2007,31 @@ While you'll always be at your users' mercy to some extent, there are a few thin
 
 Displaying user-uploaded images at their intrinsic aspect ratio can really throw off a layout, especially if there are a lot of images on the screen at once.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1069.jpg)
+![](assets/img1069.jpg)
 
 Instead of letting users wreak havoc on your page structure, center their images inside fixed containers, cropping out anything that doesn't fit.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1072.jpg)
+![](assets/img1072.jpg)
 
 This is really easy to do with CSS these days by making the image a background image, and setting the `background-size` property to `cover`.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1073.jpg)
+![](assets/img1073.jpg)
 
 ### Prevent background bleed
 
 When a user provides an image with a background color that's similar to the background in your UI, the image and the background can bleed together, causing the image to lose its shape.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1076.jpg)
+![](assets/img1076.jpg)
 
 Instead of trying to solve this with a border, try using a subtle inner box shadow:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1077.jpg)
+![](assets/img1077.jpg)
 
 Borders will often clash with the colors in the image, while most people will barely even realize the shadow is there.
 
 If you don't like the slight "inset" look you get from using a box shadow, a semi-transparent inner border works great, too.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1080.jpg)
+![](assets/img1080.jpg)
 
 ---
 
@@ -2040,23 +2043,23 @@ You don't always have to add new elements to a design to add flare — there are
 
 For example, if your design includes a bulleted list, try replacing the bullets with icons:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1085.jpg)
+![](assets/img1085.jpg)
 
 Checkmarks and arrows are great generic choices for a lot of situations, but you can also use something more specific to your content, like a padlock icon for a list of security-related features:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1086.jpg)
+![](assets/img1086.jpg)
 
 Similarly, if you're working on a testimonial try "promoting" the quotes into visual elements by increasing the size and changing the color:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1089.jpg)
+![](assets/img1089.jpg)
 
 Links are another great candidate for special styling. You can do something as simple as changing the color and font weight, or something as fancy as a thick and colorful custom underline that partially overlaps the text:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1090.jpg)
+![](assets/img1090.jpg)
 
 If you're working on a form, using custom checkboxes and radio buttons is an easy way to add some color to the design:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1093.jpg)
+![](assets/img1093.jpg)
 
 Just using one of your brand colors for the selected states instead of the browser defaults is often enough to take something from feeling boring to feeling polished and well-designed.
 
@@ -2070,23 +2073,23 @@ One simple trick that can make a big difference is to add colorful accent border
 
 For example, across the top of a card:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1096.jpg)
+![](assets/img1096.jpg)
 
 ...or to highlight active navigation items:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1099.jpg)
+![](assets/img1099.jpg)
 
 ...or along the side of an alert message:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1100.jpg)
+![](assets/img1100.jpg)
 
 ...or as a short accent underneath a headline:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1101.jpg)
+![](assets/img1101.jpg)
 
 ...or even across the top of your entire layout:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1104.jpg)
+![](assets/img1104.jpg)
 
 It doesn't take any graphic design talent to add a colored rectangle to your UI, and it can go a long way towards making something feel more "designed."
 
@@ -2102,15 +2105,15 @@ A great way to break up some of the monotony without drastically altering the de
 
 One way to add some excitement to a background is to simply change the color.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1107.jpg)
+![](assets/img1107.jpg)
 
 This works great for emphasizing an individual panel, as well as for adding some distinction between entire page sections.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1110.jpg)
+![](assets/img1110.jpg)
 
 For a more energetic look, you could even use a slight gradient:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1111.jpg)
+![](assets/img1111.jpg)
 
 For best results, use two hues that are no more than about 30° apart.
 
@@ -2118,11 +2121,11 @@ For best results, use two hues that are no more than about 30° apart.
 
 Another approach is to add a subtle repeatable pattern, like this one from [Hero Patterns](https://heropatterns.com/):
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1115.jpg)
+![](assets/img1115.jpg)
 
 You don't have to necessarily repeat it across the entire background, either — a pattern designed to repeat along a single edge can look great, too.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1116.jpg)
+![](assets/img1116.jpg)
 
 Keep the contrast between the background and the pattern pretty low to ensure readability.
 
@@ -2132,15 +2135,15 @@ Instead of decorating an entire background, you can also try including an indivi
 
 Simple geometric shapes work well for this:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1119.jpg)
+![](assets/img1119.jpg)
 
 ...as do small chunks of a repeatable pattern:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1120.jpg)
+![](assets/img1120.jpg)
 
 You can even do something more complex, like a simplified world map:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1123.jpg)
+![](assets/img1123.jpg)
 
 Just like with a full background pattern, it's best to keep the contrast low so nothing interferes with the content.
 
@@ -2152,21 +2155,21 @@ Imagine you're designing a new feature for an app you're working on.
 
 You've spent a ton of time crafting the perfect realistic sample data, picking out usernames and avatars, and putting together a beautiful and electrifying screen.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1126.jpg)
+![](assets/img1126.jpg)
 
 You code it all up and deploy it to production. But when an excited user clicks the new item in the nav, they see this:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1129.jpg)
+![](assets/img1129.jpg)
 
 If you're designing something that depends on user-generated content, the empty state should be a priority, not an afterthought.
 
 Try incorporating an image or illustration to grab the user's attention, and emphasizing the call-to-action to encourage them to take the next step:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1130.jpg)
+![](assets/img1130.jpg)
 
 If you're working on something that has a bunch of supporting UI like tabs or filters, consider hiding that stuff entirely. There's no point in presenting a bunch of actions that don't do anything until the user has created some content.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1133.jpg)
+![](assets/img1133.jpg)
 
 Empty states are a user's first interaction with a new product or feature. Use them as an opportunity to be interesting and exciting — don't settle for plain and boring.
 
@@ -2176,7 +2179,7 @@ Empty states are a user's first interaction with a new product or feature. Use t
 
 When you need to create separation between two elements, try to resist immediately reaching for a border.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1136.jpg)
+![](assets/img1136.jpg)
 
 While borders are a great way to distinguish two elements from one another, they aren't the only way, and using too many of them can make your design feel busy and cluttered.
 
@@ -2184,7 +2187,7 @@ While borders are a great way to distinguish two elements from one another, they
 
 Box shadows do a great job of outlining an element like a border would, but can be more subtle and accomplish the same goal without being as distracting.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1139.jpg)
+![](assets/img1139.jpg)
 
 This approach works best when the element you are applying the box shadow to is not the same color as the background.
 
@@ -2192,7 +2195,7 @@ This approach works best when the element you are applying the box shadow to is 
 
 Giving adjacent elements slightly different background colors is usually all you need to create distinction between them.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1142.jpg)
+![](assets/img1142.jpg)
 
 If you're already using different background colors in addition to a border, try removing the border; you might not need it.
 
@@ -2200,7 +2203,7 @@ If you're already using different background colors in addition to a border, try
 
 What better way to create separation between elements than to simply increase the separation?
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1145.jpg)
+![](assets/img1145.jpg)
 
 Spacing things further apart is a great way to create distinction between groups of elements without introducing any new UI at all.
 
@@ -2212,35 +2215,35 @@ Most people have a lot of preconceived notions about how certain components are 
 
 For example, picture a dropdown menu. You're probably picturing a white box with a bit of a drop shadow and a list of links stacked inside of it:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1148.jpg)
+![](assets/img1148.jpg)
 
 But who says a dropdown needs to be a boring list of links? It's just a floating box on the screen, you can do anything you want with it.
 
 Break it into sections, use multiple columns, add supporting text or colorful icons — do something fun with it!
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1151.jpg)
+![](assets/img1151.jpg)
 
 And don't just stop at dropdowns; what about something like a table?
 
 When you imagine a table, you probably think of columns that each contain one specific piece of data:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1154.jpg)
+![](assets/img1154.jpg)
 
 Tables don't have to work this way, though — if a column doesn't need to be sortable, there's no reason you can't combine it with a related column and introduce some interesting hierarchy:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1155.jpg)
+![](assets/img1155.jpg)
 
 Table content doesn't have to be plain text, either. Add images if it makes sense, or introduce some color to enrich the existing data:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1158.jpg)
+![](assets/img1158.jpg)
 
 How about radio buttons? There's nothing more boring than a stack of labels with little circles next to them.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1159.jpg)
+![](assets/img1159.jpg)
 
 If a set of radio buttons are an important part of the UI you're designing, try something like selectable cards instead:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1162.jpg)
+![](assets/img1162.jpg)
 
 Don't let your existing beliefs hold back your designs — constraints are powerful but sometimes a bit of freedom is just what you need to take an interface to the next level.
 
@@ -2260,15 +2263,15 @@ Whenever you stumble across a design you really like, ask yourself:
 
 Maybe it's the way they inverted the background color on a datepicker:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1167.jpg)
+![](assets/img1167.jpg)
 
 ...or the way they positioned a button within a text input instead of on the outside:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1170.jpg)
+![](assets/img1170.jpg)
 
 ...or something as simple as using two different font colors for a headline:
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1171.jpg)
+![](assets/img1171.jpg)
 
 Paying attention to these sorts of unintuitive decisions is a great way to discover new ideas that you can apply to your own designs.
 
@@ -2278,7 +2281,7 @@ The absolute best way to notice the little details that make a design look reall
 
 When you're trying to figure out why your version looks different than the original, you'll discover tricks like "reduce your line height for headings", "add letter-spacing to uppercase text", or "combine multiple shadows" all on your own.
 
-![](http://asset.localhost/C%3A%5CUsers%5CSarfaraz%5CDocuments%5CNotes%5Cassets%5Cimg1174.jpg)
+![](assets/img1174.jpg)
 
 By continually studying the work that inspires you with a careful eye, you'll be picking up design tricks for years to come.
 
