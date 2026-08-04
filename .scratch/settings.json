@@ -15,5 +15,12 @@
   "textDirection": null,
   "editorWidth": "full",
   "defaultNoteName": "Untitled",
-  "interfaceZoom": 1.0
+  "interfaceZoom": 1.0,
+  "customEditorWidthPx": null,
+  "sidebarWidthPx": null,
+  "ollamaModel": null,
+  "foldersEnabled": null,
+  "ignoredPatterns": null,
+  "customColorsLight": null,
+  "customColorsDark": null
 }
