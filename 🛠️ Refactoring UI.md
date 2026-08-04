@@ -1,12 +1,8 @@
 # 🛠️ Refactoring UI
 
-**Sarfaraz**
+## 📑 Table of Contents
 
----
-
-## Contents
-
-### [Starting from Scratch](#starting-from-scratch)
+### [🚀 Starting from Scratch](#starting-from-scratch)
 
 - [Start with a feature, not a layout](#start-with-a-feature-not-a-layout)
 - [Detail comes later](#detail-comes-later)
@@ -14,7 +10,7 @@
 - [Choose a personality](#choose-a-personality)
 - [Limit your choices](#limit-your-choices)
 
-### [Hierarchy is Everything](#hierarchy-is-everything)
+### [⚖️ Hierarchy is Everything](#hierarchy-is-everything)
 
 - [Not all elements are equal](#not-all-elements-are-equal)
 - [Size isn't everything](#size-isnt-everything)
@@ -25,7 +21,7 @@
 - [Balance weight and contrast](#balance-weight-and-contrast)
 - [Semantics are secondary](#semantics-are-secondary)
 
-### [Layout and Spacing](#layout-and-spacing)
+### [📐 Layout and Spacing](#layout-and-spacing)
 
 - [Start with too much white space](#start-with-too-much-white-space)
 - [Establish a spacing and sizing system](#establish-a-spacing-and-sizing-system)
@@ -34,7 +30,7 @@
 - [Relative sizing doesn't scale](#relative-sizing-doesnt-scale)
 - [Avoid ambiguous spacing](#avoid-ambiguous-spacing)
 
-### [Designing Text](#designing-text)
+### [✍️ Designing Text](#designing-text)
 
 - [Establish a type scale](#establish-a-type-scale)
 - [Use good fonts](#use-good-fonts)
@@ -45,7 +41,7 @@
 - [Align with readability in mind](#align-with-readability-in-mind)
 - [Use letter-spacing effectively](#use-letter-spacing-effectively)
 
-### [Working with Color](#working-with-color)
+### [🎨 Working with Color](#working-with-color)
 
 - [Ditch hex for HSL](#ditch-hex-for-hsl)
 - [You need more colors than you think](#you-need-more-colors-than-you-think)
@@ -55,7 +51,7 @@
 - [Accessible doesn't have to mean ugly](#accessible-doesnt-have-to-mean-ugly)
 - [Don't rely on color alone](#dont-rely-on-color-alone)
 
-### [Creating Depth](#creating-depth)
+### [🧊 Creating Depth](#creating-depth)
 
 - [Emulate a light source](#emulate-a-light-source)
 - [Use shadows to convey elevation](#use-shadows-to-convey-elevation)
@@ -63,14 +59,14 @@
 - [Even flat designs can have depth](#even-flat-designs-can-have-depth)
 - [Overlap elements to create layers](#overlap-elements-to-create-layers)
 
-### [Working with Images](#working-with-images)
+### [🖼️ Working with Images](#working-with-images)
 
 - [Use good photos](#use-good-photos)
 - [Text needs consistent contrast](#text-needs-consistent-contrast)
 - [Everything has an intended size](#everything-has-an-intended-size)
 - [Beware user-uploaded content](#beware-user-uploaded-content)
 
-### [Finishing Touches](#finishing-touches)
+### [✨ Finishing Touches](#finishing-touches)
 
 - [Supercharge the defaults](#supercharge-the-defaults)
 - [Add color with accent borders](#add-color-with-accent-borders)
@@ -79,14 +75,14 @@
 - [Use fewer borders](#use-fewer-borders)
 - [Think outside the box](#think-outside-the-box)
 
-### [Leveling Up](#leveling-up)
+### [📈 Leveling Up](#leveling-up)
 
 - [Look for decisions you wouldn't have made](#look-for-decisions-you-wouldnt-have-made)
 - [Rebuild your favorite interfaces](#rebuild-your-favorite-interfaces)
 
 ---
 
-# Starting from Scratch
+# 🚀 Starting from Scratch
 
 ## Start with a feature, not a layout
 
@@ -141,7 +137,8 @@ Obsessing over little details just isn't possible with a Sharpie, so it can be a
 
 Even when you're ready to refine an idea in higher fidelity, resist the temptation to introduce color right away.
 
-By designing in grayscale, you're forced to use spacing, contrast, and size to do all of the heavy lifting.
+> [!TIP]
+> **Hold the color**: By designing in grayscale, you're forced to use spacing, contrast, and size to do all of the heavy lifting before introducing color.
 
 ![](assets/img477.jpg)
 
@@ -154,8 +151,6 @@ It's a little more challenging, but you'll end up with a clearer interface with 
 The whole point of designing in low-fidelity is to be able to move fast, so you can start building the real thing as soon as possible.
 
 Sketches and wireframes are disposable — users can't do anything with static mockups. Use them to explore your ideas, and leave them behind when you've made a decision.
-
- 
 
 ---
 
@@ -177,7 +172,6 @@ You're setting yourself up for frustration by trying to figure this stuff out us
 
 Instead of designing everything up front, work in short cycles. Start by designing a simple version of the next feature you want to build.  
 
-
 ![](assets/img486.jpg)
 
 Once you're happy with the basic design, make it real.
@@ -185,7 +179,6 @@ Once you're happy with the basic design, make it real.
 You'll probably run into some unexpected complexity along the way, but that's the point — it's a lot easier to fix design problems in an interface you can actually use than it is to imagine every edge case in advance.
 
 Iterate on the working design until there are no more problems left to solve, then jump back into design mode and start working on the next feature.  
-
 
 ![](assets/img489.jpg)
 
@@ -203,10 +196,8 @@ You get deep into implementation only to discover that supporting attachments is
 
 The thing is, a comment system with no attachments would still have been better than no comment system at all, but because you planned to include it from day one you've got nothing you can ship.
 
-When you're designing a new feature, **expect it to be hard to build**.
-
-Designing the smallest useful version you can ship reduces that risk considerably.  
-
+> [!IMPORTANT]
+> **Expect it to be hard to build**: When you're designing a new feature, expect it to be hard to build. Designing the smallest useful version you can ship reduces risk considerably.  
 
 ![](assets/img493.jpg)
 
@@ -354,7 +345,8 @@ This approach works for anything where you've defined a system. When you're limi
 
 ### Systematize everything
 
-The more systems you have in place, the faster you'll be able to work and the less you'll second guess your own decisions.
+> [!TIP]
+> **Systematize Everything**: Create predefined systems for font size, weight, line height, colors, margins, padding, widths, shadows, and border radii to eliminate decision fatigue.
 
 You'll want systems for things like:
 
@@ -379,7 +371,7 @@ Designing with systems is going to be a recurring theme throughout this book, an
 
 ---
 
-# Hierarchy is Everything
+# ⚖️ Hierarchy is Everything
 
 ## Not all elements are equal
 
@@ -393,7 +385,8 @@ When everything in an interface is competing for attention, it feels noisy and c
 
 ![](assets/img540.jpg)
 
-When you deliberately de-emphasize secondary and tertiary information, and make an effort to highlight the elements that are most important, the result is immediately more pleasing, even though the color scheme, font choice, and layout haven't changed:
+> [!NOTE]
+> **Hierarchy makes UI look designed**: When you deliberately de-emphasize secondary/tertiary information and highlight what matters most, the result feels polished even before changing colors or fonts.
 
 ![](assets/img543.jpg)
 
@@ -417,11 +410,11 @@ Similarly, using a softer color for supporting text instead of a tiny font size 
 
 ![](assets/img550.jpg)
 
-Try and stick to two or three colors:
-
-- A dark color for primary content (like the headline of an article)
-- A grey for secondary content (like the date an article was published)
-- A lighter grey for tertiary content (maybe the copyright notice in a footer)
+> [!TIP]
+> **Color Hierarchy Palette**:
+> - **Dark color**: Primary content (headlines, titles)
+> - **Grey**: Secondary content (dates, subheadings)
+> - **Lighter grey**: Tertiary content (footer, copyright notices)
 
 Similarly, two font weights are usually enough for UI work:
 
@@ -430,7 +423,8 @@ Similarly, two font weights are usually enough for UI work:
 
 ![](assets/img553.jpg)
 
-Stay away from font weights under 400 for UI work — they can work for large headings but are too hard to read at smaller sizes. If you're considering using a lighter weight to de-emphasize some text, use a lighter color or smaller font size instead.
+> [!WARNING]
+> **Avoid light font weights**: Stay away from font weights under 400 for UI work — they are too hard to read at smaller sizes. De-emphasize text using lighter colors or smaller font sizes instead.
 
 ---
 
@@ -618,9 +612,11 @@ Every action on a page sits somewhere in a pyramid of importance. Most pages onl
 
 When designing these actions, it's important to communicate their place in the hierarchy.
 
-- **Primary actions** should be obvious. Solid, high contrast background colors work great here.
-- **Secondary actions** should be clear but not prominent. Outline styles or lower contrast background colors are great options.
-- **Tertiary actions** should be discoverable but unobtrusive. Styling these actions like links is usually the best approach.
+> [!NOTE]
+> **Action Pyramid Hierarchy**:
+> - 🟢 **Primary actions**: Obvious with solid, high-contrast background colors.
+> - ⚪ **Secondary actions**: Clear but quiet with outline styles or lower-contrast backgrounds.
+> - 🔗 **Tertiary actions**: Discoverable but unobtrusive, styled like links.
 
 ![](assets/img615.jpg)
 
@@ -642,7 +638,7 @@ Combine this with a confirmation step where the destructive action actually is t
 
 ---
 
-# Layout and Spacing
+# 📐 Layout and Spacing
 
 ## Start with too much white space
 
@@ -660,7 +656,8 @@ When designing for the web, white space is almost always added to a design — i
 
 The problem with this approach is that elements are only given the minimum amount of breathing room necessary to not look actively bad. To make something actually look great, you usually need more white space.
 
-A better approach is to start by giving something way too much space, then remove it until you're happy with the result.
+> [!TIP]
+> **White space should be removed, not added**: Start by giving elements way too much breathing room, then remove space until it looks just right.
 
 ![](assets/img631.jpg)
 
@@ -702,7 +699,8 @@ But at the large end (the width of a card, or the vertical spacing in a landing 
 
 ![](assets/img643.jpg)
 
-If you want your system to make sizing decisions easy, make sure no two values in your scale are ever closer than about 25%.
+> [!NOTE]
+> **The 25% Rule**: For a spacing & sizing system to make decisions easy, ensure no two adjacent values in your scale are closer than **~25%**.
 
 ### Defining the system
 
@@ -928,7 +926,7 @@ Whenever you're relying on spacing to connect a group of elements, always make s
 
 ---
 
-# Designing Text
+# ✍️ Designing Text
 
 ## Establish a type scale
 
@@ -1265,7 +1263,7 @@ For that reason, it often makes sense to increase the letter-spacing of all-caps
 
 ---
 
-# Working with Color
+# 🎨 Working with Color
 
 ## Ditch hex for HSL
 
@@ -1619,7 +1617,7 @@ Always use color to support something that your design is already saying; never 
 
 ---
 
-# Creating Depth
+# 🧊 Creating Depth
 
 ## Emulate a light source
 
@@ -1845,7 +1843,7 @@ You'll still create the appearance of layers but with none of the ugly clashing.
 
 ---
 
-# Working with Images
+# 🖼️ Working with Images
 
 ## Use good photos
 
@@ -2035,7 +2033,7 @@ If you don't like the slight "inset" look you get from using a box shadow, a sem
 
 ---
 
-# Finishing Touches
+# ✨ Finishing Touches
 
 ## Supercharge the defaults
 
@@ -2249,7 +2247,7 @@ Don't let your existing beliefs hold back your designs — constraints are power
 
 ---
 
-# Leveling Up
+# 📈 Leveling Up
 
 Hopefully after reading this book you feel much more confident in your ability to make something look awesome, without relying on a designer. But even though we've tried our best to cram in every good idea we could possibly think of, there will always be more out there to learn.
 
