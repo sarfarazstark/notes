@@ -113,7 +113,7 @@ Your interface will need:
 
 Start with that.
 
-![](assets/img468-1.jpg)
+![](./assets/img468-1.jpg)
 
 Hell, you might not even need that other stuff anyways — it worked for Google.
 
@@ -412,6 +412,7 @@ Similarly, using a softer color for supporting text instead of a tiny font size 
 
 > [!TIP]
 > **Color Hierarchy Palette**:
+>
 > - **Dark color**: Primary content (headlines, titles)
 > - **Grey**: Secondary content (dates, subheadings)
 > - **Lighter grey**: Tertiary content (footer, copyright notices)
@@ -614,6 +615,7 @@ When designing these actions, it's important to communicate their place in the h
 
 > [!NOTE]
 > **Action Pyramid Hierarchy**:
+>
 > - 🟢 **Primary actions**: Obvious with solid, high-contrast background colors.
 > - ⚪ **Secondary actions**: Clear but quiet with outline styles or lower-contrast backgrounds.
 > - 🔗 **Tertiary actions**: Discoverable but unobtrusive, styled like links.
