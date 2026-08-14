@@ -19,7 +19,7 @@
   "customEditorWidthPx": null,
   "sidebarWidthPx": null,
   "ollamaModel": null,
-  "foldersEnabled": null,
+  "foldersEnabled": true,
   "ignoredPatterns": null,
   "customColorsLight": null,
   "customColorsDark": null
